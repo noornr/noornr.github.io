@@ -345,3 +345,23 @@ display:block;
 .project-link:hover{
 text-decoration:none;
 }
+.profile{
+max-width:600px;
+margin:50px auto;
+padding:30px;
+background:#111827;
+border:1px solid #3b82f6;
+border-radius:20px;
+text-align:center;
+box-shadow:0 0 20px rgba(59,130,246,.3);
+}
+
+.profile h2{
+color:#3b82f6;
+margin-bottom:15px;
+}
+
+.profile p{
+margin:10px 0;
+color:#cbd5e1;
+}
