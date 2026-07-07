@@ -224,3 +224,25 @@ font-size:20px;
 color:#cbd5e1;
 margin:15px 0;
 }
+nav{
+z-index:1000;
+box-shadow:0 5px 20px rgba(0,0,0,.4);
+}
+
+button{
+padding:15px 35px;
+margin:10px;
+border:none;
+border-radius:50px;
+background:linear-gradient(90deg,#2563eb,#7c3aed);
+color:white;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+transition:.3s;
+}
+
+button:hover{
+transform:translateY(-4px);
+box-shadow:0 0 25px rgba(59,130,246,.7);
+}
