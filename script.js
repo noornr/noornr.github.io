@@ -1,17 +1,29 @@
 console.log("Welcome to NOOR WEB3");
 
+// Fade in page
 window.onload = function () {
     document.body.style.opacity = "1";
 };
 
+// Mobile Menu
+const menuBtn = document.getElementById("menuBtn");
+const navMenu = document.getElementById("navMenu");
+
+menuBtn.onclick = function () {
+    navMenu.classList.toggle("active");
+};
+
+// Back to Top Button
 const topBtn = document.getElementById("topBtn");
 
 window.onscroll = function () {
+
     if (document.documentElement.scrollTop > 300) {
         topBtn.style.display = "block";
     } else {
         topBtn.style.display = "none";
     }
+
 };
 
 topBtn.onclick = function () {
