@@ -407,3 +407,29 @@ max-width:300px;
 }
 
 }
+.menu-btn{
+display:none;
+font-size:30px;
+cursor:pointer;
+color:white;
+}
+
+@media(max-width:768px){
+
+.menu-btn{
+display:block;
+}
+
+nav ul{
+display:none;
+flex-direction:column;
+width:100%;
+text-align:center;
+margin-top:20px;
+}
+
+nav ul.active{
+display:flex;
+}
+
+}
