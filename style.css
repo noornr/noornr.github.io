@@ -1,7 +1,14 @@
 body{
 font-family:Arial,sans-serif;
-background:#0b0f19;
+background:#050816;
+background-image:
+radial-gradient(circle at 20% 20%,rgba(37,99,235,.35),transparent 35%),
+radial-gradient(circle at 80% 30%,rgba(168,85,247,.35),transparent 35%),
+radial-gradient(circle at 70% 80%,rgba(236,72,153,.30),transparent 35%),
+linear-gradient(135deg,#050816,#0b1023,#090d1f);
+background-attachment:fixed;
 color:#fff;
+overflow-x:hidden;
 }
 html{
 scroll-behavior:smooth;
