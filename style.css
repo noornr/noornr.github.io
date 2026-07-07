@@ -41,7 +41,17 @@ transition:.3s;
 nav ul li a:hover{
 color:#3b82f6;
 }
-
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+position:relative;
+overflow:hidden;
+}
 .hero h1{
 font-size:72px;
 font-weight:800;
