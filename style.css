@@ -580,3 +580,81 @@ transition:.4s;
 transform:translateY(-8px);
 box-shadow:0 0 60px rgba(59,130,246,.45);
 }
+.glass-card{
+max-width:1000px;
+width:92%;
+margin:auto;
+padding:70px 45px;
+background:rgba(15,23,42,.35);
+backdrop-filter:blur(25px);
+-webkit-backdrop-filter:blur(25px);
+border:1px solid rgba(255,255,255,.08);
+border-radius:35px;
+position:relative;
+overflow:hidden;
+text-align:center;
+box-shadow:
+0 0 30px rgba(37,99,235,.35),
+0 0 60px rgba(168,85,247,.25);
+}
+
+.glass-card::before{
+content:"";
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+padding:2px;
+border-radius:35px;
+background:linear-gradient(
+90deg,
+#00c6ff,
+#3b82f6,
+#7c3aed,
+#ec4899,
+#00c6ff
+);
+
+-webkit-mask:
+linear-gradient(#fff 0 0) content-box,
+linear-gradient(#fff 0 0);
+
+-webkit-mask-composite:xor;
+mask-composite:exclude;
+
+pointer-events:none;
+}
+
+.glass-card:hover{
+transform:translateY(-8px);
+box-shadow:
+0 0 45px rgba(59,130,246,.6),
+0 0 80px rgba(236,72,153,.35);
+}
+button{
+padding:16px 38px;
+margin:12px;
+border:none;
+border-radius:50px;
+background:linear-gradient(90deg,#0ea5ff,#7c3aed,#ec4899);
+background-size:300% 300%;
+color:white;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+transition:.4s;
+animation:gradientMove 5s linear infinite;
+box-shadow:0 0 25px rgba(99,102,241,.5);
+}
+
+button:hover{
+transform:translateY(-5px) scale(1.05);
+box-shadow:0 0 45px rgba(236,72,153,.8);
+}
+
+@keyframes gradientMove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
