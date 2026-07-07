@@ -1,20 +1,18 @@
-// Welcome Message
 console.log("Welcome to NOOR WEB3");
 
-// Smooth button animation
-const buttons = document.querySelectorAll("button");
+const topBtn = document.getElementById("topBtn");
 
-buttons.forEach(button => {
-    button.addEventListener("mouseenter", () => {
-        button.style.transform = "scale(1.08)";
+window.onscroll = function () {
+    if (document.documentElement.scrollTop > 300) {
+        topBtn.style.display = "block";
+    } else {
+        topBtn.style.display = "none";
+    }
+};
+
+topBtn.onclick = function () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
     });
-
-    button.addEventListener("mouseleave", () => {
-        button.style.transform = "scale(1)";
-    });
-});
-
-// Fade-in animation
-window.addEventListener("load", () => {
-    document.body.style.opacity = "1";
-});
+};
