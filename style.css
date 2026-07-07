@@ -52,16 +52,6 @@ nav ul li a:hover{
 color:#3b82f6;
 }
 
-.hero{
-height:90vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:20px;
-}
-
 .hero h1{
 font-size:72px;
 font-weight:800;
