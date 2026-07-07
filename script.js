@@ -1,4 +1,4 @@
-console.log("Welcome to NOOR WEB3");
+alert("Script Loaded");
 
 // Fade in page
 window.onload = function () {
