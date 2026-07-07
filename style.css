@@ -596,8 +596,18 @@ transform:translateY(-5px) scale(1.05);
 box-shadow:0 0 45px rgba(236,72,153,.8);
 }
 
-@keyframes gradientMove{
-0%{background-position:0% 50%;}
-50%{background-position:100% 50%;}
-100%{background-position:0% 50%;}
+@keyframes glow{
+0%{
+text-shadow:0 0 5px #3b82f6;
+}
+50%{
+text-shadow:0 0 20px #3b82f6,0 0 40px #7c3aed;
+}
+100%{
+text-shadow:0 0 5px #3b82f6;
+}
+}
+a{
+color:#60a5fa;
+text-decoration:none;
 }
