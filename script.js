@@ -60,9 +60,9 @@ let charIndex = 0;
 let deleting = false;
 let lastTime = 0;
 
-const typingSpeed = 65;
-const deletingSpeed = 35;
-const pauseTime = 1200;
+const typingSpeed = 55;
+const deletingSpeed = 28;
+const pauseTime = 1500;
 
 function animate(time) {
   if (!lastTime) lastTime = time;
