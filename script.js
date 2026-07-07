@@ -46,3 +46,38 @@ document.querySelectorAll("section").forEach(section=>{
     section.classList.add("hidden");
     observer.observe(section);
 });
+const words = [
+    "Blockchain Explorer",
+    "Web3 Project Tester",
+    "Crypto Researcher",
+    "AI Enthusiast"
+];
+
+let wordIndex = 0;
+let charIndex = 0;
+let deleting = false;
+
+const typing = document.getElementById("typing");
+
+function typeEffect() {
+    const current = words[wordIndex];
+
+    if (!deleting) {
+        typing.textContent = current.substring(0, charIndex++);
+        if (charIndex > current.length) {
+            deleting = true;
+            setTimeout(typeEffect, 1500);
+            return;
+        }
+    } else {
+        typing.textContent = current.substring(0, charIndex--);
+        if (charIndex < 0) {
+            deleting = false;
+            wordIndex = (wordIndex + 1) % words.length;
+        }
+    }
+
+    setTimeout(typeEffect, deleting ? 60 : 100);
+}
+
+typeEffect();
