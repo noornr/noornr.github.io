@@ -55,29 +55,46 @@ const words = [
 
 const typing = document.getElementById("typing");
 
-let i = 0;
-let j = 0;
+let wordIndex = 0;
+let charIndex = 0;
 let deleting = false;
+let lastTime = 0;
 
-function type() {
-  const word = words[i];
+const typingSpeed = 65;
+const deletingSpeed = 35;
+const pauseTime = 1200;
 
-  if (!deleting) {
-    typing.textContent = word.substring(0, j++);
-    if (j > word.length) {
-      deleting = true;
-      setTimeout(type, 1500);
-      return;
-    }
-  } else {
-    typing.textContent = word.substring(0, j--);
-    if (j < 0) {
-      deleting = false;
-      i = (i + 1) % words.length;
+function animate(time) {
+  if (!lastTime) lastTime = time;
+
+  const delay = deleting ? deletingSpeed : typingSpeed;
+
+  if (time - lastTime >= delay) {
+    const word = words[wordIndex];
+
+    if (!deleting) {
+      charIndex++;
+      typing.textContent = word.substring(0, charIndex);
+
+      if (charIndex === word.length) {
+        deleting = true;
+        lastTime = time + pauseTime;
+      } else {
+        lastTime = time;
+      }
+    } else {
+      charIndex--;
+      typing.textContent = word.substring(0, charIndex);
+
+      if (charIndex === 0) {
+        deleting = false;
+        wordIndex = (wordIndex + 1) % words.length;
+      }
+      lastTime = time;
     }
   }
 
-  setTimeout(type, deleting ? 50 : 100);
+  requestAnimationFrame(animate);
 }
 
-type();
+requestAnimationFrame(animate);
