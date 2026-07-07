@@ -336,3 +336,12 @@ z-index:999;
 #topBtn:hover{
 background:#1d4ed8;
 }
+.project-link{
+text-decoration:none;
+color:inherit;
+display:block;
+}
+
+.project-link:hover{
+text-decoration:none;
+}
