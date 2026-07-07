@@ -527,3 +527,30 @@ transition:.7s;
 top:100%;
 left:100%;
 }
+.profile{
+max-width:650px;
+margin:50px auto;
+padding:35px;
+background:rgba(17,24,39,.8);
+border:1px solid rgba(59,130,246,.5);
+border-radius:20px;
+backdrop-filter:blur(12px);
+text-align:center;
+box-shadow:0 0 30px rgba(59,130,246,.25);
+transition:.3s;
+}
+
+.profile:hover{
+transform:translateY(-6px);
+box-shadow:0 0 40px rgba(59,130,246,.45);
+}
+
+.profile h2{
+color:#3b82f6;
+margin-bottom:15px;
+}
+
+.profile p{
+margin:10px 0;
+color:#cbd5e1;
+}
