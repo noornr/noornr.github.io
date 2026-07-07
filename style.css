@@ -368,3 +368,44 @@ display:block;
 margin-left:auto;
 margin-right:auto;
 }
+@media (max-width:768px){
+
+nav{
+flex-direction:column;
+padding:15px;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
+margin-top:15px;
+}
+
+.hero h1{
+font-size:48px;
+}
+
+.hero h2{
+font-size:28px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.stats,
+.project-grid{
+grid-template-columns:1fr;
+}
+
+.profile{
+margin:30px 15px;
+}
+
+button{
+width:100%;
+max-width:300px;
+}
+
+}
