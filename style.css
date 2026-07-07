@@ -113,3 +113,28 @@ color:#cbd5e1;
 max-width:900px;
 margin:auto;
 }
+.skills{
+padding:80px 10%;
+text-align:center;
+}
+
+.skills h2{
+font-size:42px;
+color:#3b82f6;
+margin-bottom:40px;
+}
+
+.skill-box{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.skill-box div{
+padding:15px 25px;
+background:#111827;
+border:1px solid #3b82f6;
+border-radius:12px;
+font-size:18px;
+}
