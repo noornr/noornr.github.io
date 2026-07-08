@@ -68,13 +68,10 @@ filter:drop-shadow(0 0 12px gold);
 
 }
 
-.navbar ul{
-
+nav ul{
 display:flex;
 gap:30px;
-
 list-style:none;
-
 }
 
 nav ul li a{
