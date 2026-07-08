@@ -307,18 +307,9 @@ padding:80px 10%;
 text-align:center;
 }
 
-.project-grid{
-
-display:grid;
-
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-
-gap:30px;
-
-max-width:1400px;
-
-margin:auto;
-
+.project-card{
+width:100%;
+margin:0 auto;
 }
 
 .project-card{
