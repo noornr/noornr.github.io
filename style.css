@@ -151,7 +151,7 @@ overflow:hidden;
 
 font-family:'Orbitron',sans-serif;
 
-font-size:86px;
+font-size:88px;
 
 font-weight:900;
 
@@ -159,27 +159,29 @@ letter-spacing:6px;
 
 text-transform:uppercase;
 
+position:relative;
+
 background:linear-gradient(
 180deg,
-#fffdf0,
-#ffe98a,
-#FFD700,
-#d4af37,
-#8b6914
+#fff9d8 0%,
+#ffe88a 20%,
+#FFD700 40%,
+#d4af37 70%,
+#8b6914 100%
 );
-
-background-size:100% 100%;
 
 -webkit-background-clip:text;
 -webkit-text-fill-color:transparent;
 
 text-shadow:
+0 2px 0 #8b6914,
+0 5px 10px rgba(0,0,0,.35),
+0 0 18px rgba(255,215,0,.45),
+0 0 40px rgba(255,215,0,.25);
 
-0 0 15px rgba(255,215,0,.45),
+margin-bottom:25px;
 
-0 0 35px rgba(255,215,0,.25);
-
-margin-bottom:18px;
+overflow:hidden;
 
 }
 
