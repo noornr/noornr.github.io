@@ -1014,9 +1014,6 @@ pointer-events:none;
 opacity:1;
 }
 .project-card{
-    min-height:250px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+    min-height:200px;
+    padding:20px;
 }
