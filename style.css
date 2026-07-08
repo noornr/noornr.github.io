@@ -335,9 +335,11 @@ position:relative;
 }
 
 .project-card:hover{
-transform:translateY(-10px) scale(1.03);
+transform:translateY(-10px) scale(1.04);
 border-color:#FFD700;
-box-shadow:0 0 40px rgba(255,215,0,.35);
+box-shadow:
+0 0 25px rgba(255,215,0,.35),
+0 0 60px rgba(255,215,0,.20);
 }
 
 .project-card h3{
