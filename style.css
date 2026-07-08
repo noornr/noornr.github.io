@@ -519,8 +519,8 @@ text-decoration:none;
 }
 
 .project-card img{
-width:100px;
-height:100px;
+width:80px;
+height:80px;
 object-fit:contain;
 margin-bottom:22px;
 transition:.45s;
