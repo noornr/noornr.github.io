@@ -478,10 +478,6 @@ filter:blur(220px);
 opacity:.08;
 z-index:-2;
 }
-.project-card:hover{
-transform:translateY(-10px) scale(1.03);
-box-shadow:0 0 30px rgba(59,130,246,.6);
-}
 
 a:hover{
 color:#93c5fd;
