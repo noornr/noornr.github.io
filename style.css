@@ -411,15 +411,13 @@ margin:15px 0;
 
 button{
 
-padding:16px 40px;
+padding:18px 42px;
+
+margin:14px;
 
 border:none;
 
 border-radius:50px;
-
-background:linear-gradient(135deg,#FFD700,#B8860B);
-
-color:#111;
 
 font-size:18px;
 
@@ -427,17 +425,28 @@ font-weight:700;
 
 cursor:pointer;
 
-transition:.4s;
+background:linear-gradient(
+135deg,
+#FFF4B0,
+#FFD700,
+#B8860B
+);
 
-box-shadow:0 0 25px rgba(255,215,0,.35);
+color:#111;
+
+transition:.35s;
+
+box-shadow:
+0 0 25px rgba(255,215,0,.25);
 
 }
 
 button:hover{
 
-transform:translateY(-5px);
+transform:translateY(-6px) scale(1.04);
 
-box-shadow:0 0 45px rgba(255,215,0,.8);
+box-shadow:
+0 0 55px rgba(255,215,0,.7);
 
 }
 footer{
