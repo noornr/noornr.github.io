@@ -374,17 +374,35 @@ gap:15px;
 }
 
 .skill-box div{
-background:#111827;
-border:1px solid #3b82f6;
-padding:15px 20px;
-border-radius:10px;
-font-size:18px;
-transition:.3s;
+
+background:rgba(20,20,20,.75);
+
+border:1px solid rgba(255,215,0,.18);
+
+padding:18px 24px;
+
+border-radius:16px;
+
+color:#FFD700;
+
+font-weight:700;
+
+backdrop-filter:blur(12px);
+
+transition:.35s;
+
+box-shadow:0 0 15px rgba(255,215,0,.08);
+
 }
 
 .skill-box div:hover{
-transform:translateY(-5px);
-background:#1e293b;
+
+transform:translateY(-6px);
+
+border-color:#FFD700;
+
+box-shadow:0 0 30px rgba(255,215,0,.35);
+
 }
 
 .contact{
