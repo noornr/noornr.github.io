@@ -901,3 +901,10 @@ opacity:1;
 }
 
 }
+.project-card{
+    min-height:250px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
