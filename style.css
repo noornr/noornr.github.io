@@ -614,31 +614,30 @@ overflow:hidden;
 }
 
 .hero::before{
-content:"";
-position:absolute;
-width:350px;
-height:350px;
-background:#2563eb;
-border-radius:50%;
-filter:blur(140px);
-top:-120px;
-left:-120px;
-opacity:.25;
-z-index:-1;
-}
 
-.hero::after{
 content:"";
+
 position:absolute;
-width:350px;
-height:350px;
-background:#7c3aed;
-border-radius:50%;
-filter:blur(140px);
-bottom:-120px;
-right:-120px;
-opacity:.25;
+
+width:700px;
+height:700px;
+
+background:radial-gradient(circle,
+rgba(255,215,0,.22) 0%,
+rgba(255,215,0,.08) 45%,
+transparent 75%);
+
+top:50%;
+left:50%;
+
+transform:translate(-50%,-50%);
+
+filter:blur(40px);
+
+animation:pulseGlow 5s ease-in-out infinite;
+
 z-index:-1;
+
 }
 .project-card{
 position:relative;
@@ -889,6 +888,19 @@ left:-120%;
 
 100%{
 left:160%;
+}
+
+}
+@keyframes pulseGlow{
+
+0%,100%{
+transform:translate(-50%,-50%) scale(1);
+opacity:.7;
+}
+
+50%{
+transform:translate(-50%,-50%) scale(1.15);
+opacity:1;
 }
 
 }
