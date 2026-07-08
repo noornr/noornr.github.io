@@ -439,10 +439,11 @@ box-shadow:0 0 45px rgba(255,215,0,.8);
 
 }
 footer{
-padding:30px;
-background:#111827;
+padding:40px;
+background:#0a0a0a;
 text-align:center;
-border-top:1px solid #3b82f6;
+border-top:1px solid rgba(255,215,0,.2);
+box-shadow:0 -10px 40px rgba(255,215,0,.08);
 }
 
 footer p{
