@@ -308,9 +308,9 @@ text-align:center;
 }
 .project-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-    gap:16px;
-    max-width:1000px;
+    grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+    gap:12px;
+    max-width:600px;
     margin:auto;
 }
 .project-card{
