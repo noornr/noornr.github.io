@@ -477,7 +477,8 @@ z-index:-2;
 }
 
 a:hover{
-color:#93c5fd;
+color:#FFF4B0;
+text-shadow:0 0 10px rgba(255,215,0,.6);
 }
 #topBtn{
 position:fixed;
