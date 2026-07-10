@@ -782,10 +782,12 @@ animation:borderGlow 6s linear infinite;
 }
 
 .glass-card:hover{
-transform:translateY(-8px);
-box-shadow:
-0 0 45px rgba(59,130,246,.6),
-0 0 80px rgba(236,72,153,.35);
+    transform:translateY(-8px);
+
+    box-shadow:
+        0 0 35px rgba(255,215,0,.45),
+        0 0 70px rgba(255,215,0,.35),
+        0 0 120px rgba(255,215,0,.18);
 }
 
 a{
