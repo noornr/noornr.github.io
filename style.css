@@ -56,25 +56,13 @@ filter:drop-shadow(0 0 12px gold);
 }
 
 nav ul{
-display:flex;
-gap:30px;
-list-style:none;
+    display:flex;
+    gap:18px;
+    list-style:none;
 }
 
 nav ul li a{
-
-color:#ffffff;
-
-text-decoration:none;
-
-font-weight:700;
-
-padding:12px 18px;
-
-border-radius:12px;
-
-transition:.35s;
-
+    padding:10px 12px;
 }
 
 nav ul li a:hover{
@@ -87,25 +75,9 @@ box-shadow:0 0 18px rgba(255,215,0,.35);
 
 }
 .connect-btn{
-
-padding:14px 26px;
-
-border-radius:14px;
-
-text-decoration:none;
-
-color:#FFD700;
-
-border:1px solid #FFD700;
-
-background:rgba(255,183,0,.08);
-
-font-weight:700;
-
-transition:.35s;
-
-box-shadow:0 0 18px rgba(255,183,0,.25);
-
+    padding:10px 18px;
+    font-size:15px;
+    white-space:nowrap;
 }
 
 .connect-btn:hover{
