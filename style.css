@@ -36,21 +36,15 @@ nav{
 }
 
 .logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
 
-font-family:'Orbitron',sans-serif;
-
-font-size:30px;
-
-font-weight:900;
-
-color:#FFD700;
-
-letter-spacing:2px;
-
-text-shadow:
-0 0 10px rgba(255,215,0,.6),
-0 0 25px rgba(255,215,0,.3);
-
+    font-family:'Orbitron',sans-serif;
+    font-size:30px;
+    font-weight:900;
+    color:#FFD700;
+    letter-spacing:2px;
 }
 .logo img{
 
