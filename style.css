@@ -336,8 +336,7 @@ color:#FFD700;
 
 font-weight:700;
 
-backdrop-filter:none;
--webkit-backdrop-filter:none;
+backdrop-filter:blur(12px);
 
 transition:.35s;
 
