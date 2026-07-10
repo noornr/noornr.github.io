@@ -1137,5 +1137,23 @@ opacity:1;
 .connect-btn{
     display:none;
 }
+    nav{
+    gap:10px;
+    padding:12px;
+}
+
+.logo{
+    font-size:20px;
+}
+
+.logo img{
+    width:34px;
+    height:34px;
+}
+
+.menu-btn{
+    display:block;
+    margin-top:10px;
+}
 
 }
