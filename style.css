@@ -728,10 +728,10 @@ margin:auto;
 padding:100px 70px;
 text-align:center;
 
-background:rgba(18,18,18,.72);
+background:rgba(18,18,18,.95);
 
-backdrop-filter:blur(28px);
--webkit-backdrop-filter:blur(28px);
+backdrop-filter:none;
+-webkit-backdrop-filter:none;
 
 border:1px solid rgba(255,215,0,.18);
 
