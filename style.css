@@ -975,6 +975,6 @@ pointer-events:none;
 opacity:1;
 }
 .project-card{
-    min-height:190px;
-    padding:16px;
+    min-height:135px;
+    padding:10px;
 }
