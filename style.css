@@ -999,14 +999,14 @@ opacity:1;
         0 0 100px rgba(255,215,0,.05);
 }
 
-.intro-photo{
+.intro-image{
     flex:0 0 320px;
     display:flex;
     justify-content:center;
     align-items:center;
 }
 
-.intro-photo img{
+.intro-image img{
     width:100px;
     height:150px;
 
