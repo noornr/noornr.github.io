@@ -13,33 +13,26 @@ overflow-x:hidden;
 }
 
 nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
 
-position:fixed;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
 
-top:0;
+    padding:14px 25px;
+    box-sizing:border-box;
 
-left:0;
+    background:rgba(10,10,10,.72);
+    backdrop-filter:blur(20px);
 
-width:100%;
+    border-bottom:1px solid rgba(255,215,0,.2);
+    box-shadow:0 0 30px rgba(255,215,0,.15);
 
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-padding:18px 7%;
-
-background:rgba(10,10,10,.72);
-
-backdrop-filter:blur(20px);
-
-border-bottom:1px solid rgba(255,215,0,.2);
-
-box-shadow:0 0 30px rgba(255,215,0,.15);
-
-z-index:9999;
-
+    z-index:9999;
 }
 
 .logo{
