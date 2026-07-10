@@ -630,7 +630,7 @@ transparent 75%);
 
 filter:blur(30px);
 
-animation:pulseGlow 6s ease-in-out infinite;
+animation:none;
 
 z-index:-2;
 }
