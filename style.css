@@ -982,25 +982,15 @@ opacity:1;
     display:flex;
     align-items:center;
     justify-content:space-between;
-    gap:40px;
+    gap:60px;
 
-    max-width:1200px;
+    max-width:1300px;
     margin:80px auto;
     padding:60px 70px;
-
-    background:rgba(18,18,18,.72);
-    backdrop-filter:blur(28px);
-
-    border:1px solid rgba(255,215,0,.18);
-    border-radius:40px;
-
-    box-shadow:
-        0 0 40px rgba(255,215,0,.10),
-        0 0 100px rgba(255,215,0,.05);
 }
 
 .intro-image{
-    flex:0 0 320px;
+    flex:0 0 360px;
     display:flex;
     justify-content:center;
     align-items:center;
