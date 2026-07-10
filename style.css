@@ -776,7 +776,7 @@ transition:.45s;
 
     pointer-events: none;
 
-    animation: borderGlow 6s linear infinite;
+    animation:none;
 }
 .glass-card:hover{
     transform:translateY(-8px);
