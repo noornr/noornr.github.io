@@ -747,13 +747,6 @@ box-shadow:
 transition:.45s;
 }
 
-.glass-card:hover{
-transform:translateY(-8px);
-box-shadow:
-0 0 70px rgba(255,215,0,.22),
-0 0 120px rgba(255,215,0,.08);
-}
-
 .glass-card::before{
 
 content:"";
