@@ -1013,6 +1013,31 @@ opacity:1;
         0 0 70px rgba(255,215,0,.22),
         0 0 120px rgba(255,215,0,.08);
 }
+.intro::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    padding:2px;
+    border-radius:40px;
+
+    background:linear-gradient(
+        135deg,
+        #FFD700,
+        #FFF4B0,
+        #FFD700,
+        #B8860B,
+        #FFD700
+    );
+
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite:xor;
+    mask-composite:exclude;
+
+    pointer-events:none;
+    animation:borderGlow 6s linear infinite;
+}
 
 .intro-image{
     flex:0 0 360px;
