@@ -478,10 +478,10 @@ text-decoration:none;
 }
 
 .project-card img{
-width:80px;
-height:80px;
+width:55px;
+height:55px;
 object-fit:contain;
-margin-bottom:22px;
+margin-bottom:12px;
 transition:.45s;
 filter:drop-shadow(0 0 12px rgba(255,215,0,.35));
 }
