@@ -1087,3 +1087,50 @@ opacity:1;
     border:1px solid #FFD700;
     color:#FFD700;
 }
+@media (max-width:768px){
+
+.intro{
+    flex-direction:column;
+    text-align:center;
+
+    gap:30px;
+
+    width:90%;
+    margin:40px auto;
+    padding:30px 20px;
+}
+
+.intro-image{
+    flex:none;
+}
+
+.intro-image img{
+    width:220px;
+    height:270px;
+}
+
+.intro-content{
+    width:100%;
+}
+
+.intro-content h2{
+    font-size:36px;
+}
+
+.intro-content p{
+    font-size:18px;
+    line-height:1.7;
+}
+
+.intro-stats{
+    justify-content:center;
+}
+
+}
+@media (max-width:768px){
+
+.connect-btn{
+    display:none;
+}
+
+}
