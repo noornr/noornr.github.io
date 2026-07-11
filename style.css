@@ -998,6 +998,7 @@ opacity:1;
 }
 .intro-content{
     flex:1;
+    min-width:0;
 }
 
 .intro-content h2{
