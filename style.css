@@ -963,27 +963,17 @@ opacity:1;
 .intro::before{
     content:"";
     position:absolute;
-    inset:1px;
-    padding:2px;
+    inset:0;
+    border:2px solid #FFD700;
     border-radius:40px;
-
-    background:linear-gradient(
-        135deg,
-        #FFD700,
-        #FFF4B0,
-        #FFD700,
-        #B8860B,
-        #FFD700
-    );
-
-    -webkit-mask:
-        linear-gradient(#fff 0 0) content-box,
-        linear-gradient(#fff 0 0);
-    -webkit-mask-composite:xor;
-    mask-composite:exclude;
-
     pointer-events:none;
-    animation:borderGlow 6s linear infinite;
+
+    box-shadow:
+        0 0 12px rgba(255,215,0,.6),
+        0 0 30px rgba(255,215,0,.25);
+
+    animation:none;
+    background:none;
 }
 
 .intro-image{
