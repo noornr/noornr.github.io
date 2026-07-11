@@ -1174,7 +1174,14 @@ nav ul.active{
 
 .hero h1{
     font-size:40px;
-    letter-spacing:2px;
+    letter-spacing:1px;
+    overflow:visible;
+    white-space:normal;
+    word-break:break-word;
+}
+
+.glass-card{
+    overflow:visible;
 }
 
 .hero h2{
