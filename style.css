@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&display=swap');
+*{
+    box-sizing:border-box;
+}
+
+html,body{
+    width:100%;
+    overflow-x:hidden;
+}
 body{
 font-family:Arial,sans-serif;
 background:#050505;
