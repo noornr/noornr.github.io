@@ -943,10 +943,6 @@ pointer-events:none;
 .project-card:hover::after{
 opacity:1;
 }
-.project-card{
-    min-height:135px;
-    padding:10px;
-}
 .intro{
     display:flex;
     align-items:center;
