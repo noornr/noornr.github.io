@@ -1128,10 +1128,10 @@ nav ul.active{
 }
 
 .glass-card{
-    width:95%;
-    max-width:900px;
-    margin:auto;
-    padding:40px 20px;
+    width:100%;
+    max-width:100%;
+    margin:0;
+    padding:30px 15px;
     box-sizing:border-box;
 }
 
