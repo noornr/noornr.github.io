@@ -1177,7 +1177,8 @@ nav ul.active{
     font-size:34px;
     letter-spacing:0;
     line-height:1.2;
-    white-space:nowrap;
+    white-space:normal;
+    word-break:break-word;
     overflow:visible;
     display:block;
     width:100%;
