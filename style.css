@@ -534,21 +534,6 @@ font-size:18px;
 .stats{
 grid-template-columns:1fr;
 }
-.project-grid{
-grid-template-columns:repeat(2,1fr);
-gap:8px;
-}
-
-.project-card{
-height:160px;
-padding:10px;
-box-sizing:border-box;
-}
-
-.project-card img{
-width:50px;
-height:50px;
-}
 
 }
 
