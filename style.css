@@ -729,9 +729,7 @@ border-radius:40px;
 position:relative;
 overflow:hidden;
 
-box-shadow:
-0 0 40px rgba(255,215,0,.10),
-0 0 100px rgba(255,215,0,.05);
+box-shadow:0 0 15px rgba(255,215,0,.18);
 
 transition:.45s;
 }
