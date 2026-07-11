@@ -1009,23 +1009,24 @@ opacity:1;
 }
 
 .intro-image{
-    flex:0 0 360px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    position:relative;
+    display:inline-block;
+    border-radius:22px;
+    padding:5px;
+    background:#FFD700;
+    box-shadow:
+        0 0 15px rgba(255,215,0,.8),
+        0 0 35px rgba(255,215,0,.5);
 }
 
 .intro-image img{
+    display:block;
     width:300px;
     height:360px;
-
     object-fit:cover;
-    display:block;
 
     border-radius:18px;
-    border:3px solid #FFD700;
-
-    box-shadow:0 0 30px rgba(255,215,0,.6);
+    border:2px solid rgba(255,255,255,.15);
 }
 .intro-content{
     flex:1;
