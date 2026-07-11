@@ -874,17 +874,7 @@ opacity:0;
 }
 
 }
-@keyframes goldShine{
 
-0%{
-left:-120%;
-}
-
-100%{
-left:160%;
-}
-
-}
 @keyframes pulseGlow{
 
 0%,100%{
