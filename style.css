@@ -508,11 +508,6 @@ filter:drop-shadow(0 0 12px rgba(255,215,0,.35));
 }
 @media (max-width:768px){
 
-nav{
-flex-direction:column;
-padding:15px;
-}
-
 nav ul{
 flex-wrap:wrap;
 justify-content:center;
