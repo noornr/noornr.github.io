@@ -1161,16 +1161,11 @@ nav ul.active{
 }
 
 .glass-card{
-    width: calc(100% - 24px);
-    max-width: 100%;
-    margin: 0 auto;
-
-    padding: 40px 20px;
-
-    border-radius: 40px;
-    overflow: hidden;
-
-    box-sizing: border-box;
+    width:95%;
+    max-width:900px;
+    margin:auto;
+    padding:40px 20px;
+    box-sizing:border-box;
 }
 
 .hero h1{
