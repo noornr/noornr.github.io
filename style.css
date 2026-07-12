@@ -261,9 +261,6 @@ text-align:center;
 .project-card{
 width:100%;
 margin:0 auto;
-}
-
-.project-card{
 background:rgba(18,18,18,.82);
 border:1px solid rgba(255,215,0,.15);
 border-radius:22px;
