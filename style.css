@@ -26,6 +26,7 @@ linear-gradient(135deg,#030303,#0a0a0a,#050505);
 background-attachment:scroll;
 color:#fff;
 overflow-x:hidden;
+ padding-top:70px;
 }
 
 nav{
