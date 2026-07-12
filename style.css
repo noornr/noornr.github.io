@@ -903,6 +903,7 @@ opacity:1;
         backface-visibility:hidden;
         -webkit-backface-visibility:hidden;
         will-change:transform;
+        box-shadow:0 0 15px rgba(255,215,0,.18);
     }
 
     .intro{
