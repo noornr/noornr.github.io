@@ -1133,14 +1133,6 @@ nav ul.active{
     overflow:visible;
 }
 
-.glass-card{
-    width:100%;
-    max-width:100%;
-    margin:0;
-    padding:30px 15px;
-    box-sizing:border-box;
-}
-
 .hero h1{
     font-size:34px;
     letter-spacing:0;
@@ -1154,6 +1146,11 @@ nav ul.active{
 }
 
 .glass-card{
+    width:100%;
+    max-width:100%;
+    margin:0;
+    padding:30px 15px;
+    box-sizing:border-box;
     overflow:hidden;
     transform:translateZ(0);
     -webkit-transform:translateZ(0);
