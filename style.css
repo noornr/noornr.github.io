@@ -36,7 +36,7 @@ nav{
     box-sizing:border-box;
 
     background:rgba(10,10,10,.72);
-    backdrop-filter:blur(18px);
+    background:rgba(10,10,10,.92);
 
     border-bottom:1px solid rgba(255,215,0,.2);
     box-shadow:0 0 30px rgba(255,215,0,.15);
