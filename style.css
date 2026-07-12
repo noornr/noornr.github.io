@@ -595,7 +595,6 @@ text-decoration:none;
 transition:.3s;
 }
 
-@keyframes gradientMove{
 #typing{
 color:#FFD700;
 font-weight:700;
@@ -631,7 +630,6 @@ box-shadow:
 0 0 20px rgba(255,215,0,.18);
 }
 
-@keyframes borderGlow{
 .particles{
 position:fixed;
 top:0;
