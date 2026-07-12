@@ -55,12 +55,19 @@ nav{
     letter-spacing:2px;
 }
 .logo img{
+    width:42px;
+    height:42px;
 
-width:42px;
-height:42px;
+    object-fit:cover;
 
-filter:drop-shadow(0 0 12px gold);
+    border-radius:50%;
 
+    border:2px solid #D4AF37;
+
+    box-shadow:
+        0 0 8px rgba(212,175,55,.35);
+
+    filter:none;
 }
 
 nav ul{
