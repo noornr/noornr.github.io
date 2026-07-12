@@ -685,19 +685,6 @@ opacity:0;
 
 }
 
-@keyframes pulseGlow{
-
-0%,100%{
-transform:translate(-50%,-50%) scale(1);
-opacity:.7;
-}
-
-50%{
-transform:translate(-50%,-50%) scale(1.15);
-opacity:1;
-}
-
-}
 .project-card::after{
 content:"";
 position:absolute;
