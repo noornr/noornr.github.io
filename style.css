@@ -900,8 +900,18 @@ opacity:1;
 
     .stats{
         grid-template-columns:1fr;
-    }
+}
 
+.skill-box{
+    grid-template-columns:1fr;
+    gap:16px;
+}
+
+.skill-box div{
+    min-height:75px;
+    font-size:17px;
+    padding:18px;
+}
     .glass-card{
         width:100%;
         max-width:100%;
