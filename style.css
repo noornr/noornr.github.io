@@ -632,16 +632,6 @@ box-shadow:
 }
 
 @keyframes borderGlow{
-
-0%{
-filter:hue-rotate(0deg);
-}
-
-100%{
-filter:hue-rotate(360deg);
-}
-
-}
 .particles{
 position:fixed;
 top:0;
