@@ -9,8 +9,20 @@ window.onload = function () {
 const menuBtn = document.getElementById("menuBtn");
 const navMenu = document.getElementById("navMenu");
 
-menuBtn.onclick = function () {
+// Open / Close Menu
+menuBtn.onclick = function (e) {
+    e.stopPropagation();
     navMenu.classList.toggle("active");
+};
+
+// Prevent closing when clicking inside menu
+navMenu.onclick = function (e) {
+    e.stopPropagation();
+};
+
+// Close menu when clicking anywhere else
+document.onclick = function () {
+    navMenu.classList.remove("active");
 };
 
 // Back to Top Button
