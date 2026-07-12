@@ -497,17 +497,6 @@ filter:drop-shadow(0 0 12px rgba(255,215,0,.35));
     filter:drop-shadow(0 0 18px gold);
 }
 
-@keyframes rotateRing{
-
-from{
-transform:translate(-50%,-50%) rotate(0deg);
-}
-
-to{
-transform:translate(-50%,-50%) rotate(360deg);
-}
-
-}
 .project-card::before{
 content:"";
 position:absolute;
