@@ -1210,6 +1210,17 @@ font-size:16px;
 
 padding:0 10px;
 
+  .web3-grid{
+
+flex-direction:column;
+
+}
+
+.arrow{
+
+transform:rotate(90deg);
+
+}
 }
 
 }
