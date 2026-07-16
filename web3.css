@@ -385,3 +385,97 @@ border-bottom:1px solid rgba(255,255,255,.08);
 border:none;
 
 }
+
+/*=========================
+Key Features
+=========================*/
+
+.features{
+
+max-width:1400px;
+
+margin:120px auto;
+
+padding:0 8%;
+
+text-align:center;
+
+}
+
+.features h2{
+
+font-family:'Orbitron',sans-serif;
+
+font-size:48px;
+
+color:#FFD700;
+
+margin-bottom:20px;
+
+}
+
+.feature-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+margin-top:60px;
+
+}
+
+.feature-card{
+
+background:rgba(18,18,18,.92);
+
+border:1px solid rgba(255,215,0,.18);
+
+border-radius:22px;
+
+padding:35px;
+
+transition:.35s;
+
+box-shadow:0 0 20px rgba(255,215,0,.08);
+
+}
+
+.feature-card:hover{
+
+transform:translateY(-10px);
+
+border-color:#FFD700;
+
+box-shadow:0 0 35px rgba(255,215,0,.30);
+
+}
+
+.feature-icon{
+
+font-size:60px;
+
+margin-bottom:20px;
+
+}
+
+.feature-card h3{
+
+color:#FFD700;
+
+font-size:28px;
+
+margin-bottom:15px;
+
+}
+
+.feature-card p{
+
+color:#d5d5d5;
+
+line-height:1.8;
+
+font-size:17px;
+
+}
