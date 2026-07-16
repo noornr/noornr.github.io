@@ -100,3 +100,115 @@ max-width:320px;
 }
 
 }
+
+/* =========================
+How Blockchain Works
+========================= */
+
+.blockchain-steps{
+    max-width:1400px;
+    margin:100px auto;
+    padding:0 8%;
+    text-align:center;
+}
+
+.blockchain-steps h2{
+    font-family:'Orbitron',sans-serif;
+    color:#FFD700;
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+.section-text{
+    color:#d8d8d8;
+    font-size:22px;
+    margin-bottom:60px;
+}
+
+.steps{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.step-card{
+
+    width:280px;
+
+    padding:35px;
+
+    background:rgba(18,18,18,.90);
+
+    border:1px solid rgba(255,215,0,.25);
+
+    border-radius:22px;
+
+    transition:.35s;
+
+    box-shadow:
+    0 0 20px rgba(255,215,0,.08);
+
+}
+
+.step-card:hover{
+
+transform:translateY(-8px);
+
+border-color:#FFD700;
+
+box-shadow:
+0 0 35px rgba(255,215,0,.35);
+
+}
+
+.icon{
+
+font-size:55px;
+
+margin-bottom:20px;
+
+}
+
+.step-card h3{
+
+color:#FFD700;
+
+font-size:24px;
+
+margin-bottom:15px;
+
+}
+
+.step-card p{
+
+color:#d5d5d5;
+
+line-height:1.8;
+
+}
+
+.arrow{
+
+font-size:40px;
+
+color:#FFD700;
+
+}
+
+@media(max-width:900px){
+
+.steps{
+
+flex-direction:column;
+
+}
+
+.arrow{
+
+transform:rotate(90deg);
+
+}
+
+}
