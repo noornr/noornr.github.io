@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
+html{
+    scroll-behavior:smooth;
+}
 body{
-
-margin:0;
-
-background:#050505;
-
-font-family:Arial,sans-serif;
-
-color:white;
-
+    background:#050505;
+    font-family:Arial,sans-serif;
+    color:white;
 }
 
 .web3-hero{
@@ -94,10 +96,16 @@ animation:float 5s infinite ease-in-out;
 
 @keyframes float{
 
+0%{
+    transform:translateY(0);
+}
+
 50%{
+    transform:translateY(-15px);
+}
 
-transform:translateY(-15px);
-
+100%{
+    transform:translateY(0);
 }
 
 }
@@ -129,6 +137,19 @@ font-size:18px;
 .hero-image img{
 
 max-width:320px;
+
+}
+
+.web3-grid{
+
+flex-direction:column;
+
+}
+
+.arrow{
+
+transform:rotate(90deg);
+
 
 }
 
