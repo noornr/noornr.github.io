@@ -528,11 +528,6 @@ transform:translateY(-8px);
 border-color:#FFD700;
 box-shadow:0 0 45px rgba(255,215,0,.35);
 }
-.profile h2{
-color:#FFD700;
-margin-bottom:15px;
-font-family:'Orbitron',sans-serif;
-}
 
 .profile p{
 margin:10px 0;
