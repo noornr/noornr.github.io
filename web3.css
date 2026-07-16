@@ -265,3 +265,123 @@ transform:rotate(90deg);
 }
 
 }
+
+/*=========================
+Web Comparison
+=========================*/
+
+.comparison{
+
+max-width:1400px;
+
+margin:120px auto;
+
+padding:0 8%;
+
+text-align:center;
+
+}
+
+.comparison h2{
+
+font-family:'Orbitron',sans-serif;
+
+font-size:48px;
+
+color:#FFD700;
+
+margin-bottom:20px;
+
+}
+
+.comparison-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+margin-top:60px;
+
+}
+
+.compare-card{
+
+background:rgba(18,18,18,.92);
+
+border:1px solid rgba(255,215,0,.18);
+
+border-radius:22px;
+
+padding:35px;
+
+transition:.35s;
+
+box-shadow:0 0 20px rgba(255,215,0,.08);
+
+}
+
+.compare-card:hover{
+
+transform:translateY(-10px);
+
+border-color:#FFD700;
+
+box-shadow:0 0 35px rgba(255,215,0,.30);
+
+}
+
+.active-card{
+
+border:2px solid #FFD700;
+
+box-shadow:0 0 45px rgba(255,215,0,.35);
+
+}
+
+.compare-icon{
+
+font-size:60px;
+
+margin-bottom:20px;
+
+}
+
+.compare-card h3{
+
+color:#FFD700;
+
+font-size:28px;
+
+margin-bottom:25px;
+
+}
+
+.compare-card ul{
+
+list-style:none;
+
+padding:0;
+
+margin:0;
+
+}
+
+.compare-card li{
+
+padding:10px 0;
+
+color:#d5d5d5;
+
+font-size:17px;
+
+border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.compare-card li:last-child{
+
+border:none;
+
+}
