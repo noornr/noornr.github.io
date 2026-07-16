@@ -250,21 +250,6 @@ color:#FFD700;
 
 }
 
-@media(max-width:900px){
-
-.web3-grid{
-
-flex-direction:column;
-
-}
-
-.arrow{
-
-transform:rotate(90deg);
-
-}
-
-}
 
 /*=========================
 Web Comparison
