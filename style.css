@@ -1036,5 +1036,150 @@ opacity:1;
         font-size:9px;
         line-height:1.1;
     }
+/*=========================
+Learn Blockchain & Web3
+=========================*/
+
+.learn{
+
+max-width:1300px;
+
+margin:120px auto;
+
+padding:0 8%;
+
+text-align:center;
+
 }
 
+.learn h2{
+
+font-family:'Orbitron',sans-serif;
+
+font-size:46px;
+
+font-weight:800;
+
+color:#FFD700;
+
+margin-bottom:20px;
+
+text-transform:uppercase;
+
+letter-spacing:2px;
+
+}
+
+.learn-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:35px;
+
+margin-top:60px;
+
+}
+
+.learn-card{
+
+display:block;
+
+background:rgba(18,18,18,.92);
+
+border:1px solid rgba(255,215,0,.18);
+
+border-radius:22px;
+
+padding:40px;
+
+text-decoration:none;
+
+color:white;
+
+transition:.35s;
+
+box-shadow:0 0 20px rgba(255,215,0,.08);
+
+}
+
+.learn-card:hover{
+
+transform:translateY(-10px);
+
+border-color:#FFD700;
+
+box-shadow:0 0 35px rgba(255,215,0,.30);
+
+}
+
+.learn-icon{
+
+font-size:65px;
+
+margin-bottom:20px;
+
+}
+
+.learn-card h3{
+
+font-size:28px;
+
+color:#FFD700;
+
+margin-bottom:18px;
+
+}
+
+.learn-card p{
+
+font-size:17px;
+
+line-height:1.8;
+
+color:#d5d5d5;
+
+margin-bottom:30px;
+
+}
+
+.learn-btn{
+
+display:inline-block;
+
+padding:12px 28px;
+
+background:#FFD700;
+
+color:#111;
+
+border-radius:50px;
+
+font-weight:700;
+
+transition:.3s;
+
+}
+
+.learn-card:hover .learn-btn{
+
+box-shadow:0 0 20px gold;
+
+}
+
+@media(max-width:768px){
+
+.learn h2{
+
+font-size:36px;
+
+}
+
+.learn-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
