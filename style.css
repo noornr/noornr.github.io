@@ -389,7 +389,7 @@ left:-250px;
 width:700px;
 height:700px;
 background:#FFD700;
-filter:blur(220px);
+filter:blur(100px);
 opacity:.08;
 z-index:-2;
 }
@@ -402,7 +402,7 @@ right:-250px;
 width:700px;
 height:700px;
 background:#B8860B;
-filter:blur(220px);
+filter:blur(100px);
 opacity:.08;
 z-index:-2;
 }
