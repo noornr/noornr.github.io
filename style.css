@@ -101,12 +101,12 @@ transform:translateY(-3px);
 
 }
 .hero{
-min-height:100vh;
+min-height:calc(100vh - 70px);
 display:flex;
 justify-content:center;
 align-items:center;
 text-align:center;
-padding:120px 20px 80px;
+padding:40px 20px;
 position:relative;
 overflow:hidden;
 background:
