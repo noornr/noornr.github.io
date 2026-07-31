@@ -17,6 +17,7 @@ body{
 }
 
 nav{
+    height:85px;
     position:fixed;
     top:0;
     left:0;
