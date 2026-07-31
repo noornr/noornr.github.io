@@ -322,34 +322,22 @@ margin:15px 0;
 }
 
 button{
-
-padding:18px 42px;
-
-margin:14px;
-
-border:none;
-
-border-radius:50px;
-
-font-size:18px;
-
-font-weight:700;
-
-cursor:pointer;
-
-background:linear-gradient(
-135deg,
-#FFF4B0,
-#FFD700,
-#B8860B
-);
-
-color:#111;
-
-transition:.35s;
-
-box-shadow:none;
-
+    padding:21px 48px;   /* was 18px 42px */
+    margin:16px;         /* was 14px */
+    border:none;
+    border-radius:50px;
+    font-size:21px;      /* was 18px */
+    font-weight:700;
+    cursor:pointer;
+    background:linear-gradient(
+        135deg,
+        #FFF4B0,
+        #FFD700,
+        #B8860B
+    );
+    color:#111;
+    transition:.35s;
+    box-shadow:none;
 }
 
 button:hover{
