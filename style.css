@@ -293,28 +293,28 @@ text-align:center;
     justify-content:center;
     gap:14px;
 
-    min-height:120px;   /* Increased from 90px */
-    padding:30px;       /* Increased from 20px */
+    min-height:120px;
+    padding:30px;
 
-    background:rgba(18,18,18,.82);
-    border:1px solid rgba(255,215,0,.18);
+    background:rgba(15,15,15,.92);
+    border:1px solid rgba(255,215,0,.08);
     border-radius:22px;
 
     color:#FFD700;
-    font-size:21px;     /* Increased from 18px */
+    font-size:21px;
     font-weight:700;
     text-align:center;
 
-    box-shadow:0 0 20px rgba(255,215,0,.08);
+    box-shadow:0 0 6px rgba(255,215,0,.03);
     transition:.35s;
 }
 
 .skill-box div:hover{
     transform:translateY(-8px) scale(1.03);
-    border-color:#FFD700;
+    border-color:rgba(255,215,0,.25);
     box-shadow:
-        0 0 25px rgba(255,215,0,.28),
-        0 0 45px rgba(255,215,0,.12);
+        0 0 10px rgba(255,215,0,.08),
+        0 0 20px rgba(255,215,0,.03);
 }
 
 .contact{
