@@ -1,8 +1,16 @@
 console.log("Welcome to NOOR WEB3");
 
-// Fade in page
+// Fade in page + Always start at top
 window.onload = function () {
     document.body.style.opacity = "1";
+
+    // Prevent browser from restoring previous scroll position
+    if ("scrollRestoration" in history) {
+        history.scrollRestoration = "manual";
+    }
+
+    // Always open from top
+    window.scrollTo(0, 0);
 };
 
 // Mobile Menu
