@@ -270,8 +270,8 @@ color:#d1d5db;
 font-size:13px;
 }
 .skills{
-padding:80px 10%;
-text-align:center;
+    padding:80px 10%;
+    text-align:center;
 }
 
 .skill-box{
@@ -291,8 +291,13 @@ text-align:center;
     min-height:120px;
     padding:30px;
 
-    background:rgba(15,15,15,.92);
-    border:1px solid rgba(255,215,0,.016);
+    background:linear-gradient(
+        135deg,
+        rgba(20,20,20,.98),
+        rgba(10,10,10,.98)
+    );
+
+    border:2px solid rgba(255,215,0,.10);
     border-radius:22px;
 
     color:#FFD700;
@@ -300,14 +305,37 @@ text-align:center;
     font-weight:700;
     text-align:center;
 
-    box-shadow:none;
-    transition:.35s;
+    box-shadow:
+        0 8px 24px rgba(0,0,0,.45);
+
+    transition:all .35s ease;
 }
 
 .skill-box div:hover{
+
     transform:translateY(-8px) scale(1.03);
-    border-color:rgba(255,215,0,.01);
-    box-shadow:none;
+
+    border-color:#FFD700;
+
+    background:linear-gradient(
+        135deg,
+        #1a1a1a,
+        #0d0d0d
+    );
+
+    box-shadow:
+        0 0 0 2px rgba(255,215,0,.15),
+        0 0 24px rgba(255,215,0,.35),
+        0 12px 30px rgba(0,0,0,.55);
+}
+
+.skill-box div:active{
+
+    border-color:#FFD700;
+
+    box-shadow:
+        0 0 0 2px rgba(255,215,0,.18),
+        0 0 28px rgba(255,215,0,.45);
 }
 
 .contact{
