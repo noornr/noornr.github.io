@@ -101,16 +101,16 @@ transform:translateY(-3px);
 
 }
 .hero{
-min-height:auto;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:5px 15px 30px;
-position:relative;
-overflow:hidden;
-background:
-radial-gradient(circle at center,rgba(255,215,0,.016),transparent 55%);
+    min-height:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px 15px 40px;
+    position:relative;
+    overflow:hidden;
+    background:
+    radial-gradient(circle at center,rgba(255,215,0,.016),transparent 55%);
 }
 .hero h1{
     display:inline-block;
