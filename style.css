@@ -110,6 +110,7 @@ transform:translateY(-3px);
     justify-content:center;
     align-items:center;
     text-align:center;
+    margin-top:70px;
     padding: 10px 15px 20px;
     position:relative;
     overflow:hidden;
