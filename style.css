@@ -105,7 +105,7 @@ transform:translateY(-3px);
 
 }
 .hero{
-    min-height:85vh;
+    min-height:auto;
     display:flex;
     justify-content:center;
     align-items:center;
