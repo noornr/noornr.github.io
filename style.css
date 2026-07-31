@@ -145,19 +145,19 @@ transform:translateY(-3px);
     display:none;
 }
 .hero h2{
-    font-size:39px;      /* 34px → 39px */
+    font-size:45px;      /* 34px → 39px */
     font-weight:600;
     color:#e5e7eb;
-    margin:29px 0;       /* 25px → 29px */
+    margin:35px 0;       /* 25px → 29px */
     text-shadow:none;
 }
 
 .hero p{
-    font-size:23px;      /* 20px → 23px */
+    font-size:28px;      /* 20px → 23px */
     line-height:1.8;
     color:#d1d5db;
     max-width:980px;     /* 850px → 980px */
-    margin:17px auto;    /* 15px → 17px */
+    margin:21px auto;    /* 15px → 17px */
 }
 .stats{
 
