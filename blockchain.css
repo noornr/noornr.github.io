@@ -13,6 +13,7 @@ body{
 }
 
 .blockchain-hero{
+   margin-top:2px;
     max-width:1400px;
     margin:auto;
     padding:100px 8%;
