@@ -17,7 +17,6 @@ body{
 }
 
 nav{
-    
     position:fixed;
     top:0;
     left:0;
@@ -31,18 +30,17 @@ nav{
     padding:14px 25px;
     box-sizing:border-box;
 
-    border-top:2px solid #FFD700;
-border-bottom:2px solid #FFD700;
-box-shadow:
-    0 -1px 10px rgba(255,215,0,.25),
-    0 1px 10px rgba(255,215,0,.25);
+    border:2px solid #FFD700;       /* Full border */
+    border-radius:0 0 22px 22px;    /* Curved bottom corners */
+
+    box-shadow:
+        0 0 12px rgba(255,215,0,.25);
 
     background:rgba(10,10,10,.72);
     backdrop-filter:none;
 
     z-index:9999;
 }
-
 .logo{
     display:flex;
     align-items:center;
