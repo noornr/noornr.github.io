@@ -1036,12 +1036,11 @@ button{
 
 .faq{
 
-    width:95%;
-    max-width:1320px;
+    width:88%;
+
+    max-width:1050px;
 
     margin:100px auto;
-
-    text-align:center;
 }
 
 .faq h2{
