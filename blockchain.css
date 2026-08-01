@@ -1718,27 +1718,27 @@ button{
 
 .use-cases{
 
-    width:95%;
+    width:94%;
 
-    margin:60px auto;
+    margin:45px auto;
 
     text-align:center;
 }
 
 .use-cases h2{
 
-    font-size:34px;
+    font-size:30px;
 
-    margin-bottom:18px;
+    margin-bottom:14px;
 }
 
 .use-cases .section-text{
 
-    font-size:17px;
+    font-size:15px;
 
-    line-height:1.8;
+    line-height:1.7;
 
-    margin-bottom:35px;
+    margin-bottom:28px;
 }
 
 .use-grid{
@@ -1747,37 +1747,45 @@ button{
 
     grid-template-columns:1fr;
 
-    gap:18px;
+    gap:16px;
 }
 
 .use-card{
 
-    padding:28px 20px;
+    width:100%;
 
-    border-radius:20px;
+    max-width:340px;
+
+    min-height:180px;
+
+    margin:0 auto;
+
+    padding:22px 18px;
+
+    border-radius:18px;
 
     text-align:center;
 }
 
 .use-card i{
 
-    font-size:46px;
+    font-size:40px;
 
-    margin-bottom:18px;
+    margin-bottom:14px;
 }
 
 .use-card h3{
 
-    font-size:22px;
+    font-size:20px;
 
-    margin-bottom:12px;
+    margin-bottom:10px;
 }
 
 .use-card p{
 
-    font-size:16px;
+    font-size:15px;
 
-    line-height:1.7;
+    line-height:1.6;
 }
 /*====================================================
     MOBILE BLOCKCHAIN TRANSACTION FLOW
@@ -1785,27 +1793,27 @@ button{
 
 .transaction-flow{
 
-    width:95%;
+    width:94%;
 
-    margin:60px auto;
+    margin:45px auto;
 
     text-align:center;
 }
 
 .transaction-flow h2{
 
-    font-size:34px;
+    font-size:30px;
 
-    margin-bottom:18px;
+    margin-bottom:14px;
 }
 
 .transaction-flow .section-text{
 
-    font-size:17px;
+    font-size:15px;
 
-    line-height:1.8;
+    line-height:1.7;
 
-    margin-bottom:35px;
+    margin-bottom:28px;
 }
 
 .flow{
@@ -1816,57 +1824,59 @@ button{
 
     align-items:center;
 
-    gap:22px;
+    gap:16px;
 }
 
 .flow-card{
 
     width:100%;
 
-    max-width:340px;
+    max-width:320px;
 
-    min-height:220px;
+    min-height:180px;
 
-    padding:30px 24px;
+    padding:22px 18px;
 
-    border-radius:22px;
+    border-radius:18px;
+
+    margin:0 auto;
 }
 
 .flow-number{
 
-    width:58px;
-    height:58px;
+    width:50px;
+    height:50px;
 
-    font-size:22px;
+    font-size:20px;
 
-    margin:0 auto 20px;
+    margin:0 auto 16px;
 }
 
 .flow-card h3{
 
-    font-size:24px;
+    font-size:20px;
 
-    margin-bottom:14px;
+    margin-bottom:10px;
 }
 
 .flow-card p{
 
-    font-size:17px;
+    font-size:15px;
 
-    line-height:1.8;
+    line-height:1.6;
 }
 
 .flow-arrow{
 
     transform:rotate(90deg);
 
-    font-size:34px;
+    font-size:28px;
 
     color:#FFD700;
 
-    margin:0;
+    margin:2px 0;
 
-    opacity:.9;
+    opacity:.85;
 }
 
   /*====================================================
@@ -1875,34 +1885,42 @@ button{
 
 .summary{
 
-    width:95%;
+    width:94%;
 
-    margin:60px auto;
+    margin:45px auto;
 
     text-align:center;
 }
 
 .summary-card{
 
-    padding:35px 22px;
+    width:100%;
 
-    border-radius:20px;
+    max-width:340px;
+
+    margin:0 auto;
+
+    padding:26px 18px;
+
+    border-radius:18px;
 }
 
 .summary h2{
 
-    font-size:34px;
+    font-size:30px;
 
-    margin-bottom:18px;
+    margin-bottom:14px;
 }
 
 .summary p{
 
-    font-size:17px;
+    font-size:15px;
 
-    line-height:1.8;
+    line-height:1.7;
 
     max-width:100%;
+
+    margin:0;
 }
 
   /*====================================================
@@ -1911,29 +1929,29 @@ button{
 
 .faq{
 
-    width:95%;
+    width:94%;
 
-    margin:60px auto;
+    margin:45px auto;
 
     text-align:center;
 }
 
 .faq h2{
 
-    font-size:34px;
+    font-size:30px;
 
-    margin-bottom:18px;
+    margin-bottom:14px;
 }
 
 .faq .section-text{
 
     max-width:100%;
 
-    font-size:17px;
+    font-size:15px;
 
-    line-height:1.8;
+    line-height:1.7;
 
-    margin:0 auto 35px;
+    margin:0 auto 28px;
 }
 
 
@@ -1949,7 +1967,7 @@ button{
 
     align-items:center;
 
-    gap:18px;
+    gap:16px;
 }
 
 
@@ -1961,11 +1979,11 @@ button{
 
     width:100%;
 
-    max-width:360px;
+    max-width:340px;
 
-    padding:24px 20px;
+    padding:20px 16px;
 
-    border-radius:20px;
+    border-radius:18px;
 
     text-align:left;
 }
@@ -1977,11 +1995,11 @@ button{
 
 .faq-item h3{
 
-    font-size:20px;
+    font-size:18px;
 
     line-height:1.5;
 
-    margin:0 0 12px;
+    margin:0 0 10px;
 }
 
 
@@ -1991,40 +2009,40 @@ button{
 
 .faq-item p{
 
-    font-size:16px;
+    font-size:14px;
 
-    line-height:1.7;
+    line-height:1.6;
 
     margin:0;
 }
-
+/*====================================================
 /*====================================================
         MOBILE RELATED TOPICS
 ====================================================*/
 
 .related-topics{
 
-    width:95%;
+    width:94%;
 
-    margin:60px auto;
+    margin:45px auto;
 
     text-align:center;
 }
 
 .related-topics h2{
 
-    font-size:34px;
+    font-size:30px;
 
-    margin-bottom:18px;
+    margin-bottom:14px;
 }
 
 .related-topics .section-text{
 
-    font-size:17px;
+    font-size:15px;
 
-    line-height:1.8;
+    line-height:1.7;
 
-    margin-bottom:35px;
+    margin-bottom:28px;
 }
 
 .topics-grid{
@@ -2033,39 +2051,48 @@ button{
 
     grid-template-columns:1fr;
 
-    gap:18px;
+    gap:16px;
 }
 
 .topic-card{
 
-    padding:28px 20px;
+    width:100%;
 
-    border-radius:20px;
+    max-width:340px;
+
+    min-height:180px;
+
+    margin:0 auto;
+
+    padding:22px 18px;
+
+    border-radius:18px;
 
     text-align:center;
 }
 
 .topic-card i{
 
-    font-size:46px;
+    font-size:40px;
 
-    margin-bottom:18px;
+    margin-bottom:14px;
 }
 
 .topic-card h3{
 
-    font-size:22px;
+    font-size:20px;
 
-    margin-bottom:12px;
+    margin-bottom:10px;
 }
 
 .topic-card p{
 
-    font-size:16px;
+    font-size:15px;
 
-    line-height:1.7;
+    line-height:1.6;
+
+    margin:0;
 }
-
 /*====================================================
                 MOBILE FOOTER
 ====================================================*/
@@ -2074,27 +2101,49 @@ button{
 
     width:100%;
 
-    margin-top:60px;
+    margin-top:45px;
 
-    padding:40px 20px 25px;
+    padding:30px 16px 20px;
 
     text-align:center;
 }
 
 .footer-logo{
 
-    font-size:26px;
+    font-size:22px;
 
-    margin-bottom:14px;
+    margin-bottom:10px;
 }
 
 .footer p{
 
-    font-size:16px;
+    max-width:320px;
 
-    line-height:1.8;
+    margin:0 auto 18px;
 
-    margin-bottom:22px;
+    font-size:14px;
+
+    line-height:1.6;
+}
+
+.footer-links{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    margin-bottom:20px;
+}
+
+.footer-links a{
+
+    font-size:14px;
 }
 
 .footer-social{
@@ -2105,27 +2154,30 @@ button{
 
     align-items:center;
 
-    gap:14px;
+    gap:10px;
 
     flex-wrap:wrap;
 
-    margin-bottom:24px;
+    margin-bottom:20px;
 }
 
 .footer-social a{
 
-    width:48px;
-    height:48px;
+    width:42px;
 
-    font-size:20px;
+    height:42px;
+
+    font-size:18px;
+
+    border-radius:50%;
 }
 
 .footer-copy{
 
-    margin-top:18px;
+    margin-top:14px;
 
-    padding-top:18px;
+    padding-top:14px;
 
-    font-size:14px;
+    font-size:13px;
 }
 
