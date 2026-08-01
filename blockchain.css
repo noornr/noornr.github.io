@@ -1892,13 +1892,10 @@ button{
 
 .faq{
 
-    width:95%;
+    width:90%;
 
     margin:60px auto;
-
-    text-align:center;
 }
-
 .faq h2{
 
     font-size:34px;
