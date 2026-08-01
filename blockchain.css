@@ -1967,7 +1967,7 @@ button{
 
     align-items:center;
 
-    gap:16px;
+    gap:14px;
 }
 
 
@@ -1981,7 +1981,7 @@ button{
 
     max-width:340px;
 
-    padding:20px 16px;
+    padding:18px 14px;
 
     border-radius:18px;
 
@@ -1995,11 +1995,11 @@ button{
 
 .faq-item h3{
 
-    font-size:18px;
+    font-size:16px;
 
-    line-height:1.5;
+    line-height:1.45;
 
-    margin:0 0 10px;
+    margin:0 0 8px;
 }
 
 
