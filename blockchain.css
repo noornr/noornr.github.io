@@ -824,6 +824,357 @@ button{
 }
 
 /*====================================================
+    DESKTOP BLOCKCHAIN TRANSACTION FLOW
+====================================================*/
+
+.transaction-flow{
+
+    width:95%;
+    max-width:1320px;
+
+    margin:100px auto;
+
+    text-align:center;
+}
+
+.transaction-flow h2{
+
+    font-family:'Orbitron',sans-serif;
+
+    font-size:46px;
+
+    font-weight:800;
+
+    color:#FFD700;
+
+    letter-spacing:2px;
+
+    margin-bottom:20px;
+}
+
+.transaction-flow .section-text{
+
+    max-width:850px;
+
+    margin:0 auto 55px;
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    color:#d1d5db;
+}
+
+
+/*------------------------------
+        FLOW CONTAINER
+------------------------------*/
+
+.flow{
+
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    gap:20px;
+
+    flex-wrap:nowrap;
+}
+
+
+/*------------------------------
+        FLOW CARD
+------------------------------*/
+
+.flow-card{
+
+    flex:1;
+
+    min-height:250px;
+
+    padding:30px 22px;
+
+    background:rgba(18,18,18,.92);
+
+    border:2px solid rgba(255,215,0,.15);
+
+    border-radius:24px;
+
+    transition:.35s ease;
+
+    box-shadow:
+        0 0 16px rgba(255,215,0,.08);
+}
+
+.flow-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#FFD700;
+
+    box-shadow:
+        0 0 28px rgba(255,215,0,.20);
+}
+
+
+/*------------------------------
+        FLOW NUMBER
+------------------------------*/
+
+.flow-number{
+
+    width:58px;
+    height:58px;
+
+    margin:0 auto 20px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:#FFD700;
+
+    color:#111;
+
+    font-size:24px;
+    font-weight:900;
+}
+
+
+/*------------------------------
+        FLOW TITLE
+------------------------------*/
+
+.flow-card h3{
+
+    font-family:'Orbitron',sans-serif;
+
+    font-size:24px;
+
+    color:#FFD700;
+
+    margin-bottom:16px;
+}
+
+
+/*------------------------------
+    FLOW DESCRIPTION
+------------------------------*/
+
+.flow-card p{
+
+    font-size:17px;
+
+    line-height:1.8;
+
+    color:#d1d5db;
+}
+
+
+/*------------------------------
+        FLOW ARROW
+------------------------------*/
+
+.flow-arrow{
+
+    font-size:40px;
+
+    color:#FFD700;
+
+    opacity:.8;
+}
+/*====================================================
+                DESKTOP SUMMARY
+====================================================*/
+
+.summary{
+
+    width:95%;
+    max-width:1320px;
+
+    margin:100px auto;
+
+    text-align:center;
+}
+
+.summary-card{
+
+    background:rgba(18,18,18,.92);
+
+    border:2px solid rgba(255,215,0,.15);
+
+    border-radius:28px;
+
+    padding:60px;
+
+    box-shadow:
+        0 0 18px rgba(255,215,0,.10);
+
+    transition:.35s ease;
+}
+
+.summary-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#FFD700;
+
+    box-shadow:
+        0 0 30px rgba(255,215,0,.22);
+}
+
+.summary h2{
+
+    font-family:'Orbitron',sans-serif;
+
+    font-size:46px;
+
+    font-weight:800;
+
+    color:#FFD700;
+
+    letter-spacing:2px;
+
+    margin-bottom:24px;
+}
+
+.summary p{
+
+    max-width:900px;
+
+    margin:0 auto;
+
+    font-size:20px;
+
+    line-height:1.9;
+
+    color:#d1d5db;
+}
+
+/*====================================================
+                DESKTOP FAQ
+====================================================*/
+
+.faq{
+
+    width:95%;
+    max-width:1320px;
+
+    margin:100px auto;
+
+    text-align:center;
+}
+
+.faq h2{
+
+    font-family:'Orbitron',sans-serif;
+
+    font-size:46px;
+
+    font-weight:800;
+
+    color:#FFD700;
+
+    letter-spacing:2px;
+
+    margin-bottom:20px;
+}
+
+.faq .section-text{
+
+    max-width:850px;
+
+    margin:0 auto 55px;
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    color:#d1d5db;
+}
+
+
+/*------------------------------
+            FAQ LIST
+------------------------------*/
+
+.faq-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:22px;
+}
+
+
+/*------------------------------
+            FAQ ITEM
+------------------------------*/
+
+.faq-item{
+
+    background:rgba(18,18,18,.92);
+
+    border:2px solid rgba(255,215,0,.15);
+
+    border-radius:24px;
+
+    padding:28px 32px;
+
+    text-align:left;
+
+    transition:.35s ease;
+
+    box-shadow:
+        0 0 16px rgba(255,215,0,.08);
+}
+
+.faq-item:hover{
+
+    transform:translateY(-5px);
+
+    border-color:#FFD700;
+
+    box-shadow:
+        0 0 26px rgba(255,215,0,.20);
+}
+
+
+/*------------------------------
+            QUESTION
+------------------------------*/
+
+.faq-item h3{
+
+    font-family:'Orbitron',sans-serif;
+
+    font-size:24px;
+
+    color:#FFD700;
+
+    margin-bottom:16px;
+}
+
+
+/*------------------------------
+            ANSWER
+------------------------------*/
+
+.faq-item p{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#d1d5db;
+}
+
+
+/*====================================================
                 MOBILE NAVBAR
 ====================================================*/
 
@@ -1191,4 +1542,183 @@ button{
 
     line-height:1.7;
 }
+/*====================================================
+    MOBILE BLOCKCHAIN TRANSACTION FLOW
+====================================================*/
 
+.transaction-flow{
+
+    width:95%;
+
+    margin:60px auto;
+
+    text-align:center;
+}
+
+.transaction-flow h2{
+
+    font-size:34px;
+
+    margin-bottom:18px;
+}
+
+.transaction-flow .section-text{
+
+    font-size:17px;
+
+    line-height:1.8;
+
+    margin-bottom:35px;
+}
+
+.flow{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+}
+
+.flow-card{
+
+    width:100%;
+
+    min-height:auto;
+
+    padding:28px 20px;
+
+    border-radius:20px;
+}
+
+.flow-number{
+
+    width:50px;
+    height:50px;
+
+    font-size:20px;
+
+    margin:0 auto 18px;
+}
+
+.flow-card h3{
+
+    font-size:22px;
+
+    margin-bottom:14px;
+}
+
+.flow-card p{
+
+    font-size:16px;
+
+    line-height:1.7;
+}
+
+.flow-arrow{
+
+    transform:rotate(90deg);
+
+    font-size:30px;
+
+    margin:5px 0;
+}
+
+  /*====================================================
+                MOBILE SUMMARY
+====================================================*/
+
+.summary{
+
+    width:95%;
+
+    margin:60px auto;
+
+    text-align:center;
+}
+
+.summary-card{
+
+    padding:35px 22px;
+
+    border-radius:20px;
+}
+
+.summary h2{
+
+    font-size:34px;
+
+    margin-bottom:18px;
+}
+
+.summary p{
+
+    font-size:17px;
+
+    line-height:1.8;
+
+    max-width:100%;
+}
+
+  /*====================================================
+                MOBILE FAQ
+====================================================*/
+
+.faq{
+
+    width:95%;
+
+    margin:60px auto;
+
+    text-align:center;
+}
+
+.faq h2{
+
+    font-size:34px;
+
+    margin-bottom:18px;
+}
+
+.faq .section-text{
+
+    font-size:17px;
+
+    line-height:1.8;
+
+    margin-bottom:35px;
+}
+
+.faq-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+}
+
+.faq-item{
+
+    padding:22px 18px;
+
+    border-radius:20px;
+
+    text-align:left;
+}
+
+.faq-item h3{
+
+    font-size:20px;
+
+    line-height:1.5;
+
+    margin-bottom:12px;
+}
+
+.faq-item p{
+
+    font-size:16px;
+
+    line-height:1.7;
+}
