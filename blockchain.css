@@ -853,14 +853,15 @@ button{
 
 .flow{
 
-    display:flex;
+    display:grid;
 
-    justify-content:center;
-    align-items:center;
+    grid-template-columns:repeat(3,1fr);
 
-    gap:20px;
+    gap:35px;
 
-    flex-wrap:nowrap;
+    max-width:1200px;
+
+    margin:50px auto;
 }
 
 
@@ -870,11 +871,9 @@ button{
 
 .flow-card{
 
-    flex:1;
+    min-height:240px;
 
-    min-height:250px;
-
-    padding:30px 22px;
+    padding:35px 28px;
 
     background:rgba(18,18,18,.92);
 
@@ -961,11 +960,7 @@ button{
 
 .flow-arrow{
 
-    font-size:40px;
-
-    color:#FFD700;
-
-    opacity:.8;
+    display:none;
 }
 /*====================================================
                 DESKTOP SUMMARY
