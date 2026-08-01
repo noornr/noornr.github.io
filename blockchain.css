@@ -12,6 +12,112 @@ body{
     color:#fff;
 }
 
+
+/*====================================================
+                DESKTOP NAVBAR
+====================================================*/
+
+.learn-nav{
+    position:fixed;
+    top:12px;
+    left:20px;
+    right:20px;
+
+    height:78px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    padding:0 32px;
+
+    background:rgba(10,10,10,.94);
+
+    border:2px solid #FFD700;
+    border-radius:22px;
+
+    backdrop-filter:blur(16px);
+
+    box-shadow:
+        0 8px 30px rgba(255,215,0,.12);
+
+    z-index:9999;
+}
+
+
+
+/*====================================================
+                    LOGO
+====================================================*/
+
+.learn-logo{
+    display:flex;
+    align-items:center;
+    gap:14px;
+
+    font-family:'Orbitron',sans-serif;
+}
+
+.brand{
+    font-size:28px;
+    font-weight:900;
+    color:#FFD700;
+}
+
+.divider{
+    font-size:24px;
+    color:#666;
+}
+
+.page-name{
+    font-size:20px;
+    font-weight:700;
+    color:#ffffff;
+}
+
+
+
+/*====================================================
+                BACK TO HOME BUTTON
+====================================================*/
+
+.back-home{
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    min-width:210px;
+    height:52px;
+
+    padding:0 24px;
+
+    text-decoration:none;
+
+    border-radius:50px;
+
+    font-size:17px;
+    font-weight:700;
+
+    color:#111;
+
+    background:linear-gradient(
+        135deg,
+        #FFF8D6,
+        #FFD700,
+        #C99700
+    );
+
+    transition:.35s;
+}
+
+.back-home:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:
+        0 10px 25px rgba(255,215,0,.30);
+}
 .blockchain-hero{
     max-width:1400px;
     margin:auto;
