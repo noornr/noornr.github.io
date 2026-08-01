@@ -265,19 +265,37 @@ nav ul li a:hover{
 
 
 /*====================================================
-                    HERO BUTTONS
+            DESKTOP HERO BUTTONS FIX
 ====================================================*/
 
 .hero button{
-    min-width:230px;
+    background:linear-gradient(
+        135deg,
+        #FFF4B0,
+        #FFD700,
+        #B8860B
+    ) !important;
 
-    margin:14px 10px;
+    color:#111 !important;
 
-    padding:18px 32px;
+    border:none;
 
-    font-size:18px;
+    box-shadow:0 8px 20px rgba(255,215,0,.20);
 
-    border-radius:50px;
+    transition:.35s ease;
+}
+
+.hero button:hover{
+    background:linear-gradient(
+        135deg,
+        #FFF8D6,
+        #FFD700,
+        #C99700
+    ) !important;
+
+    color:#111 !important;
+
+    transform:translateY(-4px);
 }
 
 /*====================================================
