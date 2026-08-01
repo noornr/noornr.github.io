@@ -71,7 +71,8 @@ button{
 }
 
 
-/*====================================================
+
+        /*====================================================
                 DESKTOP NAVBAR
 ====================================================*/
 
@@ -82,20 +83,20 @@ button{
     left:20px;
     right:20px;
 
-    height:78px;
-
     display:flex;
     align-items:center;
     justify-content:space-between;
+
+    height:78px;
 
     padding:0 35px;
 
     background:rgba(10,10,10,.95);
 
-    backdrop-filter:blur(18px);
-
     border:2px solid rgba(255,215,0,.18);
     border-radius:22px;
+
+    backdrop-filter:blur(16px);
 
     box-shadow:
         0 8px 28px rgba(255,215,0,.10);
@@ -110,7 +111,7 @@ button{
     border-color:#FFD700;
 
     box-shadow:
-        0 12px 35px rgba(255,215,0,.18);
+        0 12px 34px rgba(255,215,0,.20);
 }
 
 
@@ -123,12 +124,7 @@ button{
     display:flex;
     align-items:center;
 
-    gap:14px;
-
     font-family:'Orbitron',sans-serif;
-}
-
-.brand{
 
     font-size:28px;
 
@@ -137,22 +133,6 @@ button{
     color:#FFD700;
 
     letter-spacing:1px;
-}
-
-.divider{
-
-    color:#666;
-
-    font-size:22px;
-}
-
-.page-name{
-
-    font-size:20px;
-
-    font-weight:700;
-
-    color:#ffffff;
 }
 
 
@@ -169,14 +149,9 @@ button{
     min-width:220px;
     height:54px;
 
-    padding:0 26px;
+    padding:0 28px;
 
     border-radius:50px;
-
-    font-size:17px;
-    font-weight:700;
-
-    color:#111;
 
     background:linear-gradient(
         135deg,
@@ -185,10 +160,16 @@ button{
         #C99700
     );
 
+    color:#111;
+
+    font-size:17px;
+
+    font-weight:700;
+
     transition:.35s ease;
 
     box-shadow:
-        0 6px 18px rgba(255,215,0,.22);
+        0 8px 22px rgba(255,215,0,.22);
 }
 
 .back-home:hover{
@@ -196,7 +177,7 @@ button{
     transform:translateY(-4px);
 
     box-shadow:
-        0 12px 28px rgba(255,215,0,.34);
+        0 12px 30px rgba(255,215,0,.35);
 }
 
 /*====================================================
@@ -1442,6 +1423,11 @@ button{
 ====================================================*/
 
 @media (max-width:768px){
+
+  /*====================================================
+                MOBILE NAVBAR
+====================================================*/
+
 .learn-nav{
 
     top:10px;
@@ -1453,37 +1439,11 @@ button{
     padding:0 16px;
 
     border-radius:18px;
-
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
 }
 
 .learn-logo{
 
-    display:flex;
-    align-items:center;
-
-    gap:8px;
-}
-
-.brand{
-
     font-size:18px;
-
-    font-weight:900;
-}
-
-.divider{
-
-    display:none;
-}
-
-.page-name{
-
-    font-size:15px;
-
-    font-weight:700;
 }
 
 .back-home{
@@ -1498,6 +1458,7 @@ button{
 
     border-radius:30px;
 }
+  
 
 
 /*====================================================
