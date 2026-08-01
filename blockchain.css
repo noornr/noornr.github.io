@@ -1796,51 +1796,59 @@ button{
 
     flex-direction:column;
 
-    gap:18px;
+    align-items:center;
+
+    gap:22px;
 }
 
 .flow-card{
 
     width:100%;
 
-    min-height:auto;
+    max-width:340px;
 
-    padding:28px 20px;
+    min-height:220px;
 
-    border-radius:20px;
+    padding:30px 24px;
+
+    border-radius:22px;
 }
 
 .flow-number{
 
-    width:50px;
-    height:50px;
+    width:58px;
+    height:58px;
 
-    font-size:20px;
+    font-size:22px;
 
-    margin:0 auto 18px;
+    margin:0 auto 20px;
 }
 
 .flow-card h3{
 
-    font-size:22px;
+    font-size:24px;
 
     margin-bottom:14px;
 }
 
 .flow-card p{
 
-    font-size:16px;
+    font-size:17px;
 
-    line-height:1.7;
+    line-height:1.8;
 }
 
 .flow-arrow{
 
     transform:rotate(90deg);
 
-    font-size:30px;
+    font-size:34px;
 
-    margin:5px 0;
+    color:#FFD700;
+
+    margin:0;
+
+    opacity:.9;
 }
 
   /*====================================================
