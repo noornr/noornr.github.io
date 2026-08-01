@@ -1952,29 +1952,29 @@ button{
 
 .faq{
 
-    width:95%;
+    width:94%;
 
-    margin:52px auto;
+    margin:48px auto;
 
     text-align:center;
 }
 
 .faq h2{
 
-    font-size:35px;
+    font-size:33px;
 
-    margin-bottom:18px;
+    margin-bottom:16px;
 }
 
 .faq .section-text{
 
     max-width:100%;
 
-    font-size:17px;
+    font-size:16px;
 
-    line-height:1.8;
+    line-height:1.75;
 
-    margin:0 auto 34px;
+    margin:0 auto 30px;
 }
 
 
@@ -1990,7 +1990,7 @@ button{
 
     align-items:center;
 
-    gap:18px;
+    gap:16px;
 }
 
 
@@ -2002,11 +2002,11 @@ button{
 
     width:100%;
 
-    max-width:370px;
+    max-width:350px;
 
-    padding:22px 18px;
+    padding:20px 16px;
 
-    border-radius:22px;
+    border-radius:20px;
 
     text-align:left;
 }
@@ -2018,11 +2018,11 @@ button{
 
 .faq-item h3{
 
-    font-size:19px;
+    font-size:18px;
 
-    line-height:1.5;
+    line-height:1.45;
 
-    margin:0 0 10px;
+    margin:0 0 9px;
 }
 
 
@@ -2032,9 +2032,9 @@ button{
 
 .faq-item p{
 
-    font-size:16px;
+    font-size:15px;
 
-    line-height:1.7;
+    line-height:1.65;
 
     margin:0;
 }
