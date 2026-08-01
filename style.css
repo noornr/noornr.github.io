@@ -360,125 +360,47 @@ text-shadow:none;
 ====================================================*/
 
 .projects{
-    max-width:1320px;
-    width:95%;
-
-    margin:100px auto;
-
-    padding:0;
-
-    text-align:center;
+padding:80px 10%;
+text-align:center;
 }
-
-.projects h2{
-    font-family:'Orbitron',sans-serif;
-
-    font-size:46px;
-    font-weight:800;
-
-    color:#FFD700;
-
-    letter-spacing:2px;
-
-    margin-bottom:50px;
-}
-
-
-
-/*====================================================
-                    PROJECT GRID
-====================================================*/
-
 .project-grid{
     display:grid;
-
-    grid-template-columns:repeat(3,1fr);
-
-    gap:24px;
-
-    width:100%;
-    max-width:100%;
-
-    margin:0 auto;
+    grid-template-columns:repeat(3, 1fr);
+    gap:28px;
+    max-width:760px;
+    margin:auto;
 }
-
-
-
-/*====================================================
-                    PROJECT CARD
-====================================================*/
-
 .project-card{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-
-    min-height:220px;
-
-    padding:28px 22px;
-
-    background:rgba(18,18,18,.92);
-
-    border:2px solid rgba(255,215,0,.15);
-    border-radius:22px;
-
-    transition:.35s ease;
-
-    box-shadow:0 0 14px rgba(255,215,0,.08);
+width:100%;
+margin:0 auto;
+background:rgba(18,18,18,.82);
+border:1px solid rgba(255,215,0,.03);
+border-radius:22px;
+padding:30px;
+text-align:center;
+backdrop-filter:none;
+transition:.4s;
+box-shadow:none;
+overflow:hidden;
+position:relative;
 }
 
 .project-card:hover{
-    transform:translateY(-8px);
-
-    border-color:#FFD700;
-
-    box-shadow:0 0 24px rgba(255,215,0,.22);
+transform:translateY(-10px) scale(1.04);
+border-color:#FFD700;
+box-shadow:none;
 }
-
-
-
-/*====================================================
-                    PROJECT IMAGE
-====================================================*/
-
-.project-card img{
-    width:60px;
-    height:60px;
-
-    object-fit:contain;
-
-    margin-bottom:18px;
-}
-
-
-
-/*====================================================
-                    PROJECT TITLE
-====================================================*/
-
 .project-card h3{
-    font-size:20px;
-
-    color:#FFD700;
-
-    margin:10px 0 8px;
+color:#FFD700;
+font-size:18px;
+margin-top:15px;
+margin-bottom:10px;
+text-shadow:none;
 }
-
-
-
-/*====================================================
-                PROJECT DESCRIPTION
-====================================================*/
 
 .project-card p{
-    font-size:15px;
-
-    line-height:1.6;
-
-    color:#d1d5db;
-
-    margin:0;
+color:#d1d5db;
+font-size:13px;
 }
 
 /*====================================================
