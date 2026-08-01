@@ -70,7 +70,10 @@ button{
     outline:none;
 }
 
+#menuBtn{
 
+    display:none;
+}
 
         /*====================================================
                 DESKTOP NAVBAR
