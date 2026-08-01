@@ -1642,27 +1642,27 @@ button{
 
 .features{
 
-    width:95%;
+    width:94%;
 
-    margin:60px auto;
+    margin:45px auto;
 
     text-align:center;
 }
 
 .features h2{
 
-    font-size:34px;
+    font-size:30px;
 
-    margin-bottom:18px;
+    margin-bottom:14px;
 }
 
 .features .section-text{
 
-    font-size:17px;
+    font-size:15px;
 
-    line-height:1.8;
+    line-height:1.7;
 
-    margin-bottom:35px;
+    margin-bottom:28px;
 }
 
 .features-grid{
@@ -1671,37 +1671,45 @@ button{
 
     grid-template-columns:1fr;
 
-    gap:18px;
+    gap:16px;
 }
 
 .feature-card{
 
-    padding:28px 20px;
+    width:100%;
 
-    border-radius:20px;
+    max-width:340px;
+
+    margin:0 auto;
+
+    min-height:190px;
+
+    padding:22px 18px;
+
+    border-radius:18px;
 
     text-align:center;
 }
 
 .feature-card i{
 
-    font-size:46px;
-
-    margin-bottom:18px;
-}
-
-.feature-card h3{
-
-    font-size:24px;
+    font-size:40px;
 
     margin-bottom:14px;
 }
 
+.feature-card h3{
+
+    font-size:21px;
+
+    margin-bottom:12px;
+}
+
 .feature-card p{
 
-    font-size:16px;
+    font-size:15px;
 
-    line-height:1.7;
+    line-height:1.6;
 }
 
    /*====================================================
