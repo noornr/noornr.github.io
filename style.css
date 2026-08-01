@@ -146,66 +146,138 @@ nav ul li a:hover{
     transform:translateY(-3px);
 }
 
-/*------------------------------
-        HERO SECTION
-------------------------------*/
+/*====================================================
+                    DESKTOP HERO
+====================================================*/
 
 .hero{
     min-height:auto;
+
     display:flex;
     justify-content:center;
     align-items:center;
     text-align:center;
-    margin-top:120px;
-    padding:0 12px 6px;   /* Only padding reduced by 20% */
+
+    margin-top:130px;
+    padding:0 20px 40px;
+
     position:relative;
     overflow:hidden;
-    background:
-    radial-gradient(circle at center,rgba(255,215,0,.016),transparent 55%);
 }
+
+
+
+/*====================================================
+                    HERO CARD
+====================================================*/
+
+.glass-card{
+    width:100%;
+    max-width:1150px;
+
+    margin:0 auto;
+
+    padding:60px 40px 50px;
+
+    border:2px solid #FFD700;
+    border-radius:36px;
+
+    background:rgba(18,18,18,.95);
+
+    box-shadow:0 0 18px rgba(255,215,0,.12);
+
+    transition:.35s;
+}
+
+.glass-card:hover{
+    transform:translateY(-6px);
+}
+
+
+
+/*====================================================
+                    HERO BADGE
+====================================================*/
+
+.hero-badge{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:12px 24px;
+
+    font-size:22px;
+    font-weight:700;
+
+    border:1px solid rgba(255,215,0,.25);
+    border-radius:999px;
+
+    margin-bottom:30px;
+}
+
+
+
+/*====================================================
+                    HERO NAME
+====================================================*/
 
 .hero h1{
     display:inline-block;
-    padding:14px 36px;    /* Only padding reduced by 20% */
 
-    font-family:'Orbitron',sans-serif;
-    font-size:58px;
+    padding:16px 40px;
+
+    font-size:64px;
     font-weight:900;
-    letter-spacing:4px;
-    text-transform:uppercase;
+    letter-spacing:3px;
 
-    color:#f5f5f5;
-    background:#0b0b0b;
+    margin-bottom:30px;
 
     border:2px solid #FFD700;
-    border-radius:14px;
-
-    text-shadow:none;
-    box-shadow:none;
-
-    -webkit-text-fill-color:#f5f5f5;
-    -webkit-background-clip:initial;
-    background-clip:border-box;
+    border-radius:18px;
 }
 
-.hero h1::after{
-    display:none;
-}
+
+
+/*====================================================
+                    HERO TITLE
+====================================================*/
 
 .hero h2{
-    font-size:36px;
-    font-weight:600;
-    color:#e5e7eb;
-    margin:28px 0;
-    text-shadow:none;
+    font-size:38px;
+    margin:24px 0;
 }
 
+
+
+/*====================================================
+                HERO DESCRIPTION
+====================================================*/
+
 .hero p{
+    max-width:850px;
+
+    margin:18px auto;
+
     font-size:22px;
-    line-height:1.45;
-    color:#d1d5db;
-    max-width:784px;
-    margin:17px auto;
+    line-height:1.7;
+}
+
+
+
+/*====================================================
+                    HERO BUTTONS
+====================================================*/
+
+.hero button{
+    min-width:230px;
+
+    margin:14px 10px;
+
+    padding:18px 32px;
+
+    font-size:18px;
+
+    border-radius:50px;
 }
 
 /*------------------------------
