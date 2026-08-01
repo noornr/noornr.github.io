@@ -1,9 +1,27 @@
+/*====================================================
+                    DESKTOP VERSION
+                  (Default Styles)
+====================================================*/
+
+/*------------------------------
+        GOOGLE FONTS
+------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&display=swap');
+
+/*------------------------------
+        GLOBAL STYLES
+------------------------------*/
+
 *{
     box-sizing:border-box;
 }
 
-html,body{
+html,
+/*------------------------------
+        BODY
+------------------------------*/
+
+body{
     width:100%;
     overflow-x:hidden;
 }
@@ -15,6 +33,11 @@ body{
     overflow-x:hidden;
     padding-top:80px;
 }
+
+
+/*------------------------------
+        NAVBAR
+------------------------------*/
 
 nav{
 
@@ -105,6 +128,11 @@ box-shadow:none;
 transform:translateY(-3px);
 
 }
+
+/*------------------------------
+        HERO SECTION
+------------------------------*/
+
 .hero{
     min-height:auto;
     display:flex;
@@ -162,6 +190,11 @@ transform:translateY(-3px);
     max-width:784px;
     margin:17px auto;
 }
+
+/*------------------------------
+        STATS SECTION
+------------------------------*/
+
 .stats{
 
 display:grid;
@@ -228,6 +261,11 @@ letter-spacing:2px;
 text-shadow:none;
 
 }
+
+/*------------------------------
+     FEATURED PROJECTS
+------------------------------*/
+
 .projects{
 padding:80px 10%;
 text-align:center;
@@ -271,6 +309,11 @@ text-shadow:none;
 color:#d1d5db;
 font-size:13px;
 }
+
+/*------------------------------
+        SKILLS SECTION
+------------------------------*/
+
 .skills{
     padding:80px 10%;
     text-align:center;
@@ -340,6 +383,11 @@ font-size:13px;
         0 0 28px rgba(255,215,0,.45);
 }
 
+
+/*------------------------------
+      CONTACT SECTION
+------------------------------*/
+
 .contact{
 padding:80px 10%;
 text-align:center;
@@ -377,6 +425,11 @@ transform:translateY(-6px) scale(1.04);
 box-shadow:none;
 
 }
+
+/*------------------------------
+        FOOTER
+------------------------------*/
+
 footer{
 padding:40px;
 background:#0a0a0a;
@@ -399,6 +452,11 @@ a:hover{
 color:#FFF4B0;
 text-shadow:none;
 }
+
+/*------------------------------
+    BACK TO TOP BUTTON
+------------------------------*/
+
 #topBtn{
     position:fixed;
 
@@ -584,6 +642,11 @@ backdrop-filter:none;
 box-shadow:none;
 }
 
+
+/*------------------------------
+        BACKGROUND PARTICLES
+------------------------------*/
+
 .particles{
 position:absolute;
 top:0;
@@ -666,6 +729,11 @@ pointer-events:none;
 .project-card:hover::after{
 opacity:1;
 }
+
+/*------------------------------
+        ABOUT SECTION
+------------------------------*/
+
 .intro{
     display:flex;
     align-items:center;
@@ -762,6 +830,12 @@ opacity:1;
     border:1px solid #FFD700;
     color:#FFD700;
 }
+
+/*====================================================
+                    MOBILE VERSION
+                (max-width:768px)
+====================================================*/
+
 @media (max-width:768px){
 
     body{
@@ -1108,6 +1182,11 @@ nav ul li a:hover{
 /*=========================
 Learn Blockchain & Web3
 =========================*/
+
+
+/*------------------------------
+   LEARN BLOCKCHAIN & WEB3
+------------------------------*/
 
 .learn{
 
