@@ -1560,27 +1560,27 @@ button{
 
 .blockchain-steps{
 
-    width:95%;
+    width:94%;
 
-    margin:60px auto;
+    margin:45px auto;
 
     text-align:center;
 }
 
 .blockchain-steps h2{
 
-    font-size:34px;
+    font-size:30px;
 
-    margin-bottom:16px;
+    margin-bottom:14px;
 }
 
 .blockchain-steps .section-text{
 
-    font-size:17px;
+    font-size:15px;
 
-    line-height:1.8;
+    line-height:1.7;
 
-    margin-bottom:35px;
+    margin-bottom:28px;
 }
 
 .steps{
@@ -1589,50 +1589,53 @@ button{
 
     flex-direction:column;
 
-    gap:18px;
+    gap:16px;
 }
 
 .step-card{
 
     width:100%;
 
-    min-height:auto;
+    max-width:340px;
 
-    padding:28px 20px;
+    min-height:190px;
 
-    border-radius:20px;
+    margin:0 auto;
+
+    padding:22px 18px;
+
+    border-radius:18px;
 }
 
 .step-card i{
 
-    font-size:46px;
-
-    margin-bottom:18px;
-}
-
-.step-card h3{
-
-    font-size:24px;
+    font-size:40px;
 
     margin-bottom:14px;
 }
 
+.step-card h3{
+
+    font-size:21px;
+
+    margin-bottom:12px;
+}
+
 .step-card p{
 
-    font-size:16px;
+    font-size:15px;
 
-    line-height:1.7;
+    line-height:1.6;
 }
 
 .arrow{
 
     transform:rotate(90deg);
 
-    font-size:30px;
+    font-size:26px;
 
-    margin:6px 0;
+    margin:2px 0;
 }
-
 /*====================================================
     MOBILE WHY BLOCKCHAIN IS SPECIAL
 ====================================================*/
