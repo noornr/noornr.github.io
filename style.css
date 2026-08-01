@@ -453,6 +453,42 @@ color:#FFF4B0;
 text-shadow:none;
 }
 
+
+/*====================================================
+        LEARN BLOCKCHAIN & WEB3
+====================================================*/
+
+.learn{
+    max-width:1300px;
+    margin:100px auto;
+    padding:0 8%;
+    text-align:center;
+}
+
+.learn h2{
+    font-family:'Orbitron',sans-serif;
+    font-size:46px;
+    font-weight:800;
+    color:#FFD700;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-bottom:20px;
+}
+
+.section-text{
+    max-width:800px;
+    margin:0 auto 50px;
+    font-size:20px;
+    line-height:1.8;
+    color:#d1d5db;
+}
+
+.learn-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:35px;
+    margin-top:20px;
+}
 /*------------------------------
     BACK TO TOP BUTTON
 ------------------------------*/
