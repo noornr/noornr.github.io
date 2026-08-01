@@ -1030,17 +1030,21 @@ button{
     color:#d1d5db;
 }
 
+
+
 /*====================================================
                 DESKTOP FAQ
 ====================================================*/
 
 .faq{
 
-    width:88%;
+    width:95%;
 
-    max-width:1050px;
+    max-width:1320px;
 
     margin:100px auto;
+
+    text-align:center;
 }
 
 .faq h2{
@@ -1082,7 +1086,9 @@ button{
 
     flex-direction:column;
 
-    gap:22px;
+    align-items:center;
+
+    gap:26px;
 }
 
 
@@ -1092,13 +1098,17 @@ button{
 
 .faq-item{
 
+    width:88%;
+
+    max-width:950px;
+
     background:rgba(18,18,18,.92);
 
     border:2px solid rgba(255,215,0,.15);
 
     border-radius:24px;
 
-    padding:28px 32px;
+    padding:30px 35px;
 
     text-align:left;
 
@@ -1110,12 +1120,12 @@ button{
 
 .faq-item:hover{
 
-    transform:translateY(-5px);
+    transform:translateY(-6px);
 
     border-color:#FFD700;
 
     box-shadow:
-        0 0 26px rgba(255,215,0,.20);
+        0 0 28px rgba(255,215,0,.22);
 }
 
 
@@ -1131,7 +1141,7 @@ button{
 
     color:#FFD700;
 
-    margin-bottom:16px;
+    margin:0 0 18px;
 }
 
 
@@ -1146,8 +1156,9 @@ button{
     line-height:1.8;
 
     color:#d1d5db;
-}
 
+    margin:0;
+}
 /*====================================================
         DESKTOP RELATED TOPICS
 ====================================================*/
