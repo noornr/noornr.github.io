@@ -265,58 +265,57 @@ nav ul li a:hover{
 
 
 /*====================================================
-            DESKTOP HERO BUTTONS
+                DESKTOP HERO BUTTONS
 ====================================================*/
 
-.hero-buttons{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:24px;
-    margin-top:40px;
-    flex-wrap:wrap;
+.hero a{
+    display:inline-block;
+    margin:15px 12px;
+    text-decoration:none;
 }
 
-.hero-buttons a,
-.hero-buttons button{
-    display:inline-flex;
-    justify-content:center;
-    align-items:center;
-
+.hero a button{
     min-width:240px;
-    height:62px;
+    height:60px;
 
-    padding:0 36px;
+    padding:0 32px;
+
+    border:none;
+    border-radius:50px;
+
+    cursor:pointer;
 
     font-size:20px;
     font-weight:700;
-
-    text-decoration:none;
+    font-family:inherit;
 
     color:#111;
 
     background:linear-gradient(
         135deg,
-        #FFF6C8 0%,
+        #FFF7C2 0%,
         #FFD700 55%,
         #C99700 100%
     );
 
-    border:none;
-    border-radius:50px;
-
     box-shadow:
         0 8px 22px rgba(255,215,0,.28);
 
-    transition:.35s ease;
+    transition:all .35s ease;
 }
 
-.hero-buttons a:hover,
-.hero-buttons button:hover{
-    transform:translateY(-4px) scale(1.03);
+.hero a button:hover{
+    transform:translateY(-4px);
 
     box-shadow:
-        0 12px 28px rgba(255,215,0,.40);
+        0 12px 30px rgba(255,215,0,.40);
+
+    background:linear-gradient(
+        135deg,
+        #FFFCE0 0%,
+        #FFD700 55%,
+        #D4AF37 100%
+    );
 }
 /*====================================================
                 DESKTOP STATS SECTION
