@@ -1361,7 +1361,9 @@ button{
 
     align-items:center;
 
-    gap:20px;
+    gap:28px;
+
+    margin-top:10px;
 
     margin-bottom:30px;
 }
@@ -1389,7 +1391,6 @@ button{
 
     color:#ffffff;
 }
-
 
 
 /*------------------------------
