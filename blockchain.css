@@ -1032,17 +1032,18 @@ button{
 
 
 
-/*====================================================
+
+        /*====================================================
                 DESKTOP FAQ
 ====================================================*/
 
 .faq{
 
-    width:95%;
+    width:96%;
 
-    max-width:1320px;
+    max-width:1400px;
 
-    margin:100px auto;
+    margin:115px auto;
 
     text-align:center;
 }
@@ -1051,7 +1052,7 @@ button{
 
     font-family:'Orbitron',sans-serif;
 
-    font-size:46px;
+    font-size:53px;
 
     font-weight:800;
 
@@ -1059,18 +1060,18 @@ button{
 
     letter-spacing:2px;
 
-    margin-bottom:20px;
+    margin-bottom:24px;
 }
 
 .faq .section-text{
 
-    max-width:850px;
+    max-width:980px;
 
-    margin:0 auto 55px;
+    margin:0 auto 65px;
 
-    font-size:20px;
+    font-size:23px;
 
-    line-height:1.8;
+    line-height:1.9;
 
     color:#d1d5db;
 }
@@ -1088,7 +1089,7 @@ button{
 
     align-items:center;
 
-    gap:26px;
+    gap:30px;
 }
 
 
@@ -1098,34 +1099,66 @@ button{
 
 .faq-item{
 
-    width:88%;
+    width:92%;
 
-    max-width:950px;
+    max-width:1100px;
 
     background:rgba(18,18,18,.92);
 
     border:2px solid rgba(255,215,0,.15);
 
-    border-radius:24px;
+    border-radius:28px;
 
-    padding:30px 35px;
+    padding:36px 42px;
 
     text-align:left;
 
     transition:.35s ease;
 
     box-shadow:
-        0 0 16px rgba(255,215,0,.08);
+        0 0 20px rgba(255,215,0,.10);
 }
 
 .faq-item:hover{
 
-    transform:translateY(-6px);
+    transform:translateY(-8px);
 
     border-color:#FFD700;
 
     box-shadow:
-        0 0 28px rgba(255,215,0,.22);
+        0 0 34px rgba(255,215,0,.24);
+}
+
+
+/*------------------------------
+            QUESTION
+------------------------------*/
+
+.faq-item h3{
+
+    font-family:'Orbitron',sans-serif;
+
+    font-size:28px;
+
+    color:#FFD700;
+
+    margin:0 0 20px;
+}
+
+
+/*------------------------------
+            ANSWER
+------------------------------*/
+
+.faq-item p{
+
+    font-size:21px;
+
+    line-height:1.9;
+
+    color:#d1d5db;
+
+    margin:0;
 }
 
 
