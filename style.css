@@ -284,78 +284,75 @@ nav ul li a:hover{
                 DESKTOP STATS SECTION
 ====================================================*/
 
+/*------------------------------
+        STATS SECTION
+------------------------------*/
+
 .stats{
-    display:grid;
 
-    grid-template-columns:repeat(4,1fr);
+display:grid;
 
-    gap:30px;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 
-    max-width:1320px;
-    width:95%;
+gap:35px;
 
-    margin:90px auto;
+padding:120px 8%;
 
-    padding:0;
+max-width:1400px;
+
+margin:auto;
+
 }
 
-
-
-/*====================================================
-                    STATS CARD
-====================================================*/
-
 .card{
-    background:rgba(18,18,18,.92);
-
-    padding:38px 28px;
-
-    border:2px solid rgba(255,215,0,.18);
-    border-radius:24px;
-
-    text-align:center;
-
-    transition:.35s ease;
-
-    box-shadow:0 0 14px rgba(255,215,0,.08);
+background:rgba(20,20,20,.75);
+border:1px solid rgba(255,215,0,.036);
+border-radius:22px;
+padding:35px;
+text-align:center;
+backdrop-filter:none;
+transition:.4s;
+box-shadow:none;
+cursor:pointer;
 }
 
 .card:hover{
-    transform:translateY(-8px);
-
-    border-color:#FFD700;
-
-    box-shadow:0 0 24px rgba(255,215,0,.22);
+transform:translateY(-10px);
+border-color:#FFD700;
+box-shadow:none;
 }
-
-
-
-/*====================================================
-                    STATS NUMBER
-====================================================*/
 
 .card h3{
-    font-size:52px;
-    font-weight:900;
-
-    color:#FFD700;
-
-    margin-bottom:14px;
+font-size:50px;
+color:#FFD700;
+margin-bottom:12px;
+text-shadow:none;
 }
 
-
-
-/*====================================================
-                    STATS TEXT
-====================================================*/
-
 .card p{
-    font-size:18px;
-    line-height:1.6;
+color:#d1d5db;
+font-size:18px;
+}
+.skills h2,
+.projects h2,
+.contact h2{
 
-    color:#d1d5db;
+font-family:'Orbitron',sans-serif;
 
-    margin:0;
+font-size:46px;
+
+font-weight:800;
+
+text-transform:uppercase;
+
+color:#FFD700;
+
+margin-bottom:40px;
+
+letter-spacing:2px;
+
+text-shadow:none;
+
 }
 
 /*====================================================
