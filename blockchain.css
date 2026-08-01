@@ -777,11 +777,63 @@ color:#111;
 
 
 
-/*=========================
-Responsive
-=========================*/
+/*====================================================
+                MOBILE VERSION
+====================================================*/
 
-@media(max-width:768px){
+@media (max-width:768px){
+
+/*====================================================
+                MOBILE NAVBAR
+====================================================*/
+
+.learn-nav{
+
+    top:10px;
+    left:10px;
+    right:10px;
+
+    height:66px;
+
+    padding:0 18px;
+
+    border-radius:18px;
+}
+
+.learn-logo{
+
+    gap:8px;
+}
+
+.brand{
+
+    font-size:18px;
+}
+
+.divider{
+
+    display:none;
+}
+
+.page-name{
+
+    display:none;
+}
+
+.back-home{
+
+    min-width:auto;
+
+    height:42px;
+
+    padding:0 16px;
+
+    font-size:14px;
+
+    border-radius:30px;
+}
+
+}
 
 .summary-box{
 
