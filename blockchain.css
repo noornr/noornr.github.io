@@ -2101,50 +2101,58 @@ button{
 
     width:100%;
 
-    margin-top:45px;
+    margin-top:40px;
 
-    padding:30px 16px 20px;
+    padding:28px 16px 18px;
 
     text-align:center;
 }
 
 .footer-logo{
 
-    font-size:22px;
+    font-size:20px;
 
     margin-bottom:10px;
 }
 
 .footer p{
 
-    max-width:320px;
+    max-width:300px;
 
     margin:0 auto 18px;
 
-    font-size:14px;
+    font-size:13px;
 
     line-height:1.6;
 }
 
+/*------------------------------
+        FOOTER LINKS
+------------------------------*/
+
 .footer-links{
 
-    display:flex;
+    display:grid;
+
+    grid-template-columns:repeat(2,auto);
 
     justify-content:center;
 
-    align-items:center;
+    gap:10px 22px;
 
-    flex-wrap:wrap;
-
-    gap:10px;
-
-    margin-bottom:20px;
+    margin-bottom:18px;
 }
 
 .footer-links a{
 
     font-size:14px;
+
+    text-decoration:none;
 }
+
+/*------------------------------
+        SOCIAL ICONS
+------------------------------*/
 
 .footer-social{
 
@@ -2154,30 +2162,39 @@ button{
 
     align-items:center;
 
-    gap:10px;
+    gap:14px;
 
-    flex-wrap:wrap;
-
-    margin-bottom:20px;
+    margin-bottom:18px;
 }
 
 .footer-social a{
 
-    width:42px;
+    width:40px;
 
-    height:42px;
+    height:40px;
 
-    font-size:18px;
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
 
     border-radius:50%;
+
+    font-size:17px;
 }
+
+/*------------------------------
+        COPYRIGHT
+------------------------------*/
 
 .footer-copy{
 
-    margin-top:14px;
+    margin-top:12px;
 
     padding-top:14px;
 
-    font-size:13px;
-}
+    font-size:12px;
 
+    line-height:1.5;
+}
