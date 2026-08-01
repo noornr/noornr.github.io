@@ -1903,10 +1903,13 @@ button{
 
 .faq{
 
-    width:90%;
+    width:95%;
 
     margin:60px auto;
+
+    text-align:center;
 }
+
 .faq h2{
 
     font-size:34px;
@@ -1916,12 +1919,19 @@ button{
 
 .faq .section-text{
 
+    max-width:100%;
+
     font-size:17px;
 
     line-height:1.8;
 
-    margin-bottom:35px;
+    margin:0 auto 35px;
 }
+
+
+/*------------------------------
+            FAQ LIST
+------------------------------*/
 
 .faq-list{
 
@@ -1929,17 +1939,33 @@ button{
 
     flex-direction:column;
 
+    align-items:center;
+
     gap:18px;
 }
 
+
+/*------------------------------
+            FAQ ITEM
+------------------------------*/
+
 .faq-item{
 
-    padding:22px 18px;
+    width:100%;
+
+    max-width:360px;
+
+    padding:24px 20px;
 
     border-radius:20px;
 
     text-align:left;
 }
+
+
+/*------------------------------
+            QUESTION
+------------------------------*/
 
 .faq-item h3{
 
@@ -1947,14 +1973,21 @@ button{
 
     line-height:1.5;
 
-    margin-bottom:12px;
+    margin:0 0 12px;
 }
+
+
+/*------------------------------
+            ANSWER
+------------------------------*/
 
 .faq-item p{
 
     font-size:16px;
 
     line-height:1.7;
+
+    margin:0;
 }
 
 /*====================================================
