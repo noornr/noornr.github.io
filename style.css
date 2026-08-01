@@ -265,39 +265,59 @@ nav ul li a:hover{
 
 
 /*====================================================
-            DESKTOP HERO BUTTONS FIX
+            DESKTOP HERO BUTTONS
 ====================================================*/
 
-.hero button{
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:24px;
+    margin-top:40px;
+    flex-wrap:wrap;
+}
+
+.hero-buttons a,
+.hero-buttons button{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+
+    min-width:240px;
+    height:62px;
+
+    padding:0 36px;
+
+    font-size:20px;
+    font-weight:700;
+
+    text-decoration:none;
+
+    color:#111;
+
     background:linear-gradient(
         135deg,
-        #FFF4B0,
-        #FFD700,
-        #B8860B
-    ) !important;
-
-    color:#111 !important;
+        #FFF6C8 0%,
+        #FFD700 55%,
+        #C99700 100%
+    );
 
     border:none;
+    border-radius:50px;
 
-    box-shadow:0 8px 20px rgba(255,215,0,.20);
+    box-shadow:
+        0 8px 22px rgba(255,215,0,.28);
 
     transition:.35s ease;
 }
 
-.hero button:hover{
-    background:linear-gradient(
-        135deg,
-        #FFF8D6,
-        #FFD700,
-        #C99700
-    ) !important;
+.hero-buttons a:hover,
+.hero-buttons button:hover{
+    transform:translateY(-4px) scale(1.03);
 
-    color:#111 !important;
-
-    transform:translateY(-4px);
+    box-shadow:
+        0 12px 28px rgba(255,215,0,.40);
 }
-
 /*====================================================
                 DESKTOP STATS SECTION
 ====================================================*/
