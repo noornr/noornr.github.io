@@ -1065,9 +1065,17 @@ nav ul li a:hover{
 }
 
 .intro-image{
-    width:100%;
-    display:flex;
+    display:inline-flex;
     justify-content:center;
+    align-items:center;
+
+    width:auto;
+
+    padding:10px;
+
+    background:#D4AF37;
+
+    border-radius:18px;
 }
 
 .intro-image img{
