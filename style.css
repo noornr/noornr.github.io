@@ -1325,8 +1325,17 @@ nav ul li a:hover{
 }
 
 .learn-card{
-    padding:26px 20px;
+    background:rgba(18,18,18,.9);
+    border:2px solid #FFD700;
     border-radius:20px;
+    padding:26px 20px;
+    box-shadow:0 0 18px rgba(255,215,0,.18);
+    transition:.3s;
+}
+
+.learn-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 25px rgba(255,215,0,.3);
 }
 
 .learn-icon{
@@ -1350,6 +1359,7 @@ nav ul li a:hover{
     padding:12px 24px;
     font-size:15px;
     border-radius:30px;
+    border:1px solid #FFD700;
 }
 
 
