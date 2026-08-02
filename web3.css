@@ -1373,20 +1373,3 @@ font-size:15px;
     font-weight:700;
 }
 @media(max-width:768px){
-
-.related-grid{
-    grid-template-columns:1fr;
-}
-
-.footer-links,
-.footer-social{
-    flex-direction:column;
-    gap:15px;
-}
-
-.footer-text{
-    font-size:16px;
-    padding:0 10px;
-}
-
-}
