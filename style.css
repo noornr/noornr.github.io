@@ -1318,6 +1318,7 @@ nav ul li a:hover{
 }
 
 .glass-card{
+  min-height:calc(100% + 10px);
   margin-top:0px;
     width:100%;
     max-width:100%;
