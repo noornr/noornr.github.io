@@ -141,7 +141,7 @@ nav ul li a:hover{
 ====================================================*/
 
 .hero{
-    min-height:auto;
+    min-height:750px;
 
     display:flex;
     justify-content:center;
@@ -149,7 +149,7 @@ nav ul li a:hover{
     text-align:center;
 
     margin-top:130px;
-    padding:0 20px 40px;
+    padding:20px 20px;
 
     position:relative;
     overflow:hidden;
