@@ -1203,7 +1203,7 @@ opacity:1;
 ====================================================*/
 
 nav{
-  background:red !important;
+
     position:fixed;
     top:10px;
     left:10px;
@@ -1307,9 +1307,9 @@ nav ul li a:hover{
 ====================================================*/
 
 .hero{
-  background:red !important;
+  border:3px solid lime !important;
     min-height:auto;
-    margin-top:90px;
+    margin-top:0;
     padding:0 10px 10px;
     display:flex;
     justify-content:center;
@@ -1318,6 +1318,7 @@ nav ul li a:hover{
 }
 
 .glass-card{
+  margin-top:90px;
     width:100%;
     max-width:100%;
     margin:0 auto;
