@@ -24,13 +24,9 @@ html,
 body{
     width:100%;
     overflow-x:hidden;
-}
-body{
     margin:0;
-    font-family:Arial,sans-serif;
     background:#050505;
     color:#fff;
-    overflow-x:hidden;
     padding-top:10px;
 }
 
