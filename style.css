@@ -1309,7 +1309,7 @@ nav ul li a:hover{
 .hero{
   border:3px solid lime !important;
     min-height:auto;
-    margin-top:0;
+    margin-top:110px;
     padding:0 10px 10px;
     display:flex;
     justify-content:center;
@@ -1318,7 +1318,7 @@ nav ul li a:hover{
 }
 
 .glass-card{
-  margin-top:90px;
+  margin-top:0px;
     width:100%;
     max-width:100%;
     margin:0 auto;
