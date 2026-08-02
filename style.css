@@ -1312,6 +1312,7 @@ nav ul li a:hover{
 ====================================================*/
 
 .hero{
+  background:red !important;
     min-height:auto;
     margin-top:90px;
     padding:0 10px 10px;
