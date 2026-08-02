@@ -31,7 +31,7 @@ body{
     background:#050505;
     color:#fff;
     overflow-x:hidden;
-    padding-top:60px;
+    padding-top:90px;
 }
 
 #menuBtn{
@@ -1181,18 +1181,9 @@ opacity:1;
 @media (max-width:768px){
 
     body{
-        padding-top:75px;
+        padding-top:60px;
     }
-
-
-/*====================================================
-                    NAVBAR
-====================================================*/
-
-body{
-    padding-top:75px;
-}
-
+  
   #menuBtn{
 
         display:flex;
