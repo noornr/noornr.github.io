@@ -99,33 +99,46 @@ nav{
 ====================================================*/
 
 nav ul{
+
     display:flex;
+
     align-items:center;
 
-    gap:28px;
+    gap:40px;
 
     list-style:none;
+
     margin:0;
+
     padding:0;
 }
 
 nav ul li a{
+
     display:flex;
+
     align-items:center;
 
-    padding:10px 0;
+    gap:8px;
+
+    padding:12px 0;
 
     color:#e5e7eb;
 
-    font-size:15px;
-    font-weight:600;
+    font-size:18px;
+
+    font-weight:700;
 
     text-decoration:none;
+
     transition:.3s;
 }
 
 nav ul li a:hover{
+
     color:#FFD700;
+
+    transform:translateY(-2px);
 }
 
 
@@ -134,20 +147,8 @@ nav ul li a:hover{
 ====================================================*/
 
 .connect-btn{
-    padding:12px 22px;
 
-    border-radius:40px;
-
-    font-size:15px;
-    font-weight:700;
-
-    white-space:nowrap;
-
-    transition:.3s;
-}
-
-.connect-btn:hover{
-    transform:translateY(-3px);
+    display:none;
 }
 
 /*====================================================
