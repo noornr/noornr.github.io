@@ -621,7 +621,23 @@ a:hover{
     text-shadow:none;
 }
 
+.footer-credit{
 
+    margin-top:12px;
+
+    padding-top:12px;
+
+    font-size:18px;
+
+    line-height:1.5;
+}
+
+.footer-credit strong{
+
+    color:#FFD700;
+
+    font-weight:700;
+}
 /*====================================================
             DESKTOP LEARN BLOCKCHAIN & WEB3
 ====================================================*/
