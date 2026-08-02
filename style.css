@@ -1307,13 +1307,18 @@ nav ul li a:hover{
 ====================================================*/
 
 .hero{
-  border:3px solid lime !important;
+    border:3px solid lime !important;
+
     min-height:auto;
+
     margin-top:110px;
-    padding:0 10px 10px;
+
+    padding:0 10px 40px;   /* Changed from 10px to 40px */
+
     display:flex;
     justify-content:center;
     align-items:center;
+
     text-align:center;
 }
 
