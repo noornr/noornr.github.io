@@ -1722,7 +1722,23 @@ footer p{
     margin:6px 0;
 }
 
+.footer-credit{
 
+    margin-top:12px;
+
+    padding-top:12px;
+
+    font-size:12px;
+
+    line-height:1.5;
+}
+
+.footer-credit strong{
+
+    color:#FFD700;
+
+    font-weight:700;
+}
 
 /*====================================================
                   BACK TO TOP BUTTON
