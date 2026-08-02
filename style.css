@@ -1307,9 +1307,8 @@ nav ul li a:hover{
 ====================================================*/
 
 .hero{
-    border:3px solid lime !important;
 
-    min-height:630px;      /* or 680px, adjust as needed */
+    min-height:610px;      /* or 680px, adjust as needed */
 
     margin-top:90px;
 
