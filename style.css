@@ -22,6 +22,7 @@ html,
 ------------------------------*/
 
 body{
+  background:#ffffff !important;
     width:100%;
     overflow-x:hidden;
     margin:0;
