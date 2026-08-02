@@ -1761,4 +1761,14 @@ footer p{
     border-radius:50%;
 }
 
+  .hero,
+.glass-card,
+.hero *{
+    -webkit-tap-highlight-color: transparent;
+}
+
+.hero:active,
+.glass-card:active{
+    background: inherit !important;
+}
 
