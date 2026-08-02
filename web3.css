@@ -69,7 +69,7 @@ body{
 
     font-family:'Orbitron',sans-serif;
 
-    font-size:28px;
+    font-size:24px;
 
     font-weight:900;
 
@@ -105,7 +105,7 @@ body{
 
     color:#111;
 
-    font-size:17px;
+    font-size:15px;
 
     font-weight:700;
 
@@ -126,11 +126,11 @@ body{
 
 .web3-hero{
 
-max-width:1400px;
+max-width:1240px;
 
 margin:auto;
 
-padding:100px 8%;
+padding:80px 7%;
 
 display:flex;
 
@@ -138,7 +138,7 @@ justify-content:space-between;
 
 align-items:center;
 
-gap:80px;
+gap:60px;
 
 }
 
@@ -160,7 +160,7 @@ margin-bottom:30px;
 
 font-family:'Orbitron',sans-serif;
 
-font-size:72px;
+font-size:58px;
 
 line-height:1.2;
 
@@ -174,7 +174,7 @@ color:#FFD700;
 
 .hero-text p{
 
-font-size:22px;
+font-size:16px;
 
 line-height:1.9;
 
@@ -198,7 +198,7 @@ text-align:center;
 
 width:100%;
 
-max-width:520px;
+max-width:430px;
 
 animation:float 5s infinite ease-in-out;
 
@@ -278,7 +278,7 @@ font-size:42px;
 
 .hero-text p{
 
-font-size:18px;
+font-size:16px;
 
 }
 
@@ -309,9 +309,9 @@ How Web3 Works
 
 .web3-works{
 
-max-width:1400px;
+max-width:1240px;
 
-margin:120px auto;
+margin:95px auto;
 
 padding:0 8%;
 
@@ -323,7 +323,7 @@ text-align:center;
 
 font-family:'Orbitron',sans-serif;
 
-font-size:48px;
+font-size:40px;
 
 color:#FFD700;
 
@@ -333,13 +333,13 @@ margin-bottom:20px;
 
 .section-text{
 
-font-size:20px;
+font-size:15px;
 
 color:#d5d5d5;
 
 max-width:900px;
 
-margin:0 auto 60px;
+margin:0 auto 45px;
 
 line-height:1.8;
 
@@ -361,9 +361,9 @@ flex-wrap:wrap;
 
 .web3-card{
 
-width:250px;
+width:220px;
 
-padding:30px;
+padding:24px;
 
 background:rgba(18,18,18,.92);
 
@@ -389,7 +389,7 @@ box-shadow:0 0 35px rgba(255,215,0,.30);
 
 .web3-icon{
 
-font-size:55px;
+font-size:38px;
 
 margin-bottom:20px;
 
@@ -426,9 +426,9 @@ Web Comparison
 
 .comparison{
 
-max-width:1400px;
+max-width:1240px;
 
-margin:120px auto;
+margin:95px auto;
 
 padding:0 8%;
 
@@ -440,7 +440,7 @@ text-align:center;
 
 font-family:'Orbitron',sans-serif;
 
-font-size:48px;
+font-size:40px;
 
 color:#FFD700;
 
@@ -468,7 +468,7 @@ border:1px solid rgba(255,215,0,.18);
 
 border-radius:22px;
 
-padding:35px;
+padding:28px;
 
 transition:.35s;
 
@@ -496,7 +496,7 @@ box-shadow:0 0 45px rgba(255,215,0,.35);
 
 .compare-icon{
 
-font-size:60px;
+font-size:50px;
 
 margin-bottom:20px;
 
@@ -506,7 +506,7 @@ margin-bottom:20px;
 
 color:#FFD700;
 
-font-size:28px;
+font-size:24px;
 
 margin-bottom:25px;
 
@@ -528,7 +528,7 @@ padding:10px 0;
 
 color:#d5d5d5;
 
-font-size:17px;
+font-size:15px;
 
 border-bottom:1px solid rgba(255,255,255,.08);
 
@@ -546,9 +546,9 @@ Key Features
 
 .features{
 
-max-width:1400px;
+max-width:1240px;
 
-margin:120px auto;
+margin:95px auto;
 
 padding:0 8%;
 
@@ -560,7 +560,7 @@ text-align:center;
 
 font-family:'Orbitron',sans-serif;
 
-font-size:48px;
+font-size:40px;
 
 color:#FFD700;
 
@@ -588,7 +588,7 @@ border:1px solid rgba(255,215,0,.18);
 
 border-radius:22px;
 
-padding:35px;
+padding:28px;
 
 transition:.35s;
 
@@ -608,7 +608,7 @@ box-shadow:0 0 35px rgba(255,215,0,.30);
 
 .feature-icon{
 
-font-size:60px;
+font-size:50px;
 
 margin-bottom:20px;
 
@@ -618,7 +618,7 @@ margin-bottom:20px;
 
 color:#FFD700;
 
-font-size:28px;
+font-size:24px;
 
 margin-bottom:15px;
 
@@ -630,7 +630,7 @@ color:#d5d5d5;
 
 line-height:1.8;
 
-font-size:17px;
+font-size:15px;
 
 }
 
@@ -640,9 +640,9 @@ Real-World Examples
 
 .examples{
 
-max-width:1400px;
+max-width:1240px;
 
-margin:120px auto;
+margin:95px auto;
 
 padding:0 8%;
 
@@ -654,7 +654,7 @@ text-align:center;
 
 font-family:'Orbitron',sans-serif;
 
-font-size:48px;
+font-size:40px;
 
 color:#FFD700;
 
@@ -682,7 +682,7 @@ border:1px solid rgba(255,215,0,.18);
 
 border-radius:22px;
 
-padding:35px;
+padding:28px;
 
 transition:.35s;
 
@@ -702,7 +702,7 @@ box-shadow:0 0 35px rgba(255,215,0,.30);
 
 .example-icon{
 
-font-size:60px;
+font-size:50px;
 
 margin-bottom:20px;
 
@@ -712,7 +712,7 @@ margin-bottom:20px;
 
 color:#FFD700;
 
-font-size:28px;
+font-size:24px;
 
 margin-bottom:15px;
 
@@ -724,7 +724,7 @@ color:#d5d5d5;
 
 line-height:1.8;
 
-font-size:17px;
+font-size:15px;
 
 }
 
@@ -734,9 +734,9 @@ Benefits of Web3
 
 .benefits{
 
-max-width:1400px;
+max-width:1240px;
 
-margin:120px auto;
+margin:95px auto;
 
 padding:0 8%;
 
@@ -748,7 +748,7 @@ text-align:center;
 
 font-family:'Orbitron',sans-serif;
 
-font-size:48px;
+font-size:40px;
 
 color:#FFD700;
 
@@ -776,7 +776,7 @@ border:1px solid rgba(255,215,0,.18);
 
 border-radius:22px;
 
-padding:35px;
+padding:28px;
 
 transition:.35s;
 
@@ -796,7 +796,7 @@ box-shadow:0 0 35px rgba(255,215,0,.30);
 
 .benefit-icon{
 
-font-size:60px;
+font-size:50px;
 
 margin-bottom:20px;
 
@@ -806,7 +806,7 @@ margin-bottom:20px;
 
 color:#FFD700;
 
-font-size:28px;
+font-size:24px;
 
 margin-bottom:15px;
 
@@ -816,7 +816,7 @@ margin-bottom:15px;
 
 color:#d5d5d5;
 
-font-size:17px;
+font-size:15px;
 
 line-height:1.8;
 
@@ -828,9 +828,9 @@ Challenges of Web3
 
 .challenges{
 
-max-width:1400px;
+max-width:1240px;
 
-margin:120px auto;
+margin:95px auto;
 
 padding:0 8%;
 
@@ -842,7 +842,7 @@ text-align:center;
 
 font-family:'Orbitron',sans-serif;
 
-font-size:48px;
+font-size:40px;
 
 color:#FFD700;
 
@@ -870,7 +870,7 @@ border:1px solid rgba(255,215,0,.18);
 
 border-radius:22px;
 
-padding:35px;
+padding:28px;
 
 transition:.35s;
 
@@ -890,7 +890,7 @@ box-shadow:0 0 35px rgba(255,215,0,.30);
 
 .challenge-icon{
 
-font-size:60px;
+font-size:50px;
 
 margin-bottom:20px;
 
@@ -900,7 +900,7 @@ margin-bottom:20px;
 
 color:#FFD700;
 
-font-size:28px;
+font-size:24px;
 
 margin-bottom:15px;
 
@@ -910,7 +910,7 @@ margin-bottom:15px;
 
 color:#d5d5d5;
 
-font-size:17px;
+font-size:15px;
 
 line-height:1.8;
 
@@ -924,7 +924,7 @@ Summary
 
 max-width:1200px;
 
-margin:120px auto;
+margin:95px auto;
 
 padding:0 8%;
 
@@ -942,7 +942,7 @@ border:2px solid rgba(255,215,0,.30);
 
 border-radius:30px;
 
-padding:60px;
+padding:48px;
 
 text-align:center;
 
@@ -962,7 +962,7 @@ margin-bottom:25px;
 
 font-family:'Orbitron',sans-serif;
 
-font-size:46px;
+font-size:38px;
 
 color:#FFD700;
 
@@ -972,7 +972,7 @@ margin-bottom:25px;
 
 .summary p{
 
-font-size:21px;
+font-size:16px;
 
 line-height:2;
 
@@ -1015,7 +1015,7 @@ text-decoration:none;
 
 font-weight:bold;
 
-font-size:18px;
+font-size:16px;
 
 transition:.35s;
 
@@ -1061,7 +1061,7 @@ FAQ
 
 max-width:1000px;
 
-margin:120px auto;
+margin:95px auto;
 
 padding:0 8%;
 
@@ -1071,7 +1071,7 @@ padding:0 8%;
 
 font-family:'Orbitron',sans-serif;
 
-font-size:46px;
+font-size:38px;
 
 color:#FFD700;
 
@@ -1117,7 +1117,7 @@ box-shadow:0 0 25px rgba(255,215,0,.25);
 
 cursor:pointer;
 
-font-size:20px;
+font-size:15px;
 
 font-weight:700;
 
@@ -1137,7 +1137,7 @@ display:none;
 
 margin-top:15px;
 
-font-size:17px;
+font-size:15px;
 
 line-height:1.8;
 
@@ -1153,7 +1153,7 @@ Related Topics
 
 max-width:1300px;
 
-margin:120px auto;
+margin:95px auto;
 
 padding:0 8%;
 
@@ -1165,7 +1165,7 @@ text-align:center;
 
 font-family:'Orbitron',sans-serif;
 
-font-size:46px;
+font-size:38px;
 
 color:#FFD700;
 
@@ -1193,7 +1193,7 @@ border:1px solid rgba(255,215,0,.18);
 
 border-radius:22px;
 
-padding:35px;
+padding:28px;
 
 text-decoration:none;
 
@@ -1215,7 +1215,7 @@ box-shadow:0 0 35px rgba(255,215,0,.30);
 
 .related-icon{
 
-font-size:55px;
+font-size:38px;
 
 margin-bottom:20px;
 
@@ -1245,7 +1245,7 @@ Professional Footer
 
 margin-top:120px;
 
-padding:70px 20px;
+padding:55px 20px;
 
 background:#0b0b0b;
 
@@ -1259,7 +1259,7 @@ text-align:center;
 
 font-family:'Orbitron',sans-serif;
 
-font-size:34px;
+font-size:30px;
 
 font-weight:900;
 
@@ -1275,7 +1275,7 @@ max-width:700px;
 
 margin:0 auto 35px;
 
-font-size:18px;
+font-size:16px;
 
 line-height:1.8;
 
@@ -1335,7 +1335,7 @@ text-decoration:none;
 
 color:#FFD700;
 
-font-size:18px;
+font-size:16px;
 
 transition:.3s;
 
