@@ -166,9 +166,9 @@ nav ul li a:hover{
     max-width:1150px;
 
     margin:0 auto;
-
+   
     padding:60px 40px 50px;
-
+   inset:0;
     border:2px solid #FFD700;
     border-radius:36px;
 
@@ -1327,7 +1327,7 @@ nav ul li a:hover{
     margin:0 auto;
 
     padding:28px 18px 24px;
-
+   inset:0;
     border-radius:26px;
     box-sizing:border-box;
 }
@@ -1491,7 +1491,7 @@ nav ul li a:hover{
     width:100%;
 
     padding:24px 18px;
-
+   inset:0;
     border-radius:18px;
 
     text-align:center;
