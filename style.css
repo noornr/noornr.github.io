@@ -1128,13 +1128,13 @@ opacity:1;
     display:block;
 
     width:340px;
-    height:410px;
+    height:398px;
 
     object-fit:cover;
 
+    border-radius:18px;
     border:none;
     box-shadow:none;
-    border-radius:18px;
 }
 
 
