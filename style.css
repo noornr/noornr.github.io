@@ -1440,12 +1440,13 @@ nav ul li a:hover{
 
 .intro-image img{
     width:220px;
-    height:265px;
+    height:258px;
+
     object-fit:cover;
 
+    border-radius:16px;
     border:none;
     box-shadow:none;
-    border-radius:16px;
 }
 
 .intro-content{
