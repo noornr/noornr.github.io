@@ -1118,6 +1118,8 @@ opacity:1;
     padding:0;
 
     background:transparent;
+    border:none;
+    box-shadow:none;
 
     border-radius:22px;
 }
@@ -1130,6 +1132,8 @@ opacity:1;
 
     object-fit:cover;
 
+    border:none;
+    box-shadow:none;
     border-radius:18px;
 }
 
@@ -1428,6 +1432,8 @@ nav ul li a:hover{
     padding:0;
 
     background:transparent;
+    border:none;
+    box-shadow:none;
 
     border-radius:18px;
 }
@@ -1437,6 +1443,8 @@ nav ul li a:hover{
     height:265px;
     object-fit:cover;
 
+    border:none;
+    box-shadow:none;
     border-radius:16px;
 }
 
